@@ -1,0 +1,375 @@
+body {
+  font-family: Palatino Linotype, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.no-spacing 
+{
+    margin-bottom: 0em; /* Ajustez cette valeur selon vos besoins */
+}
+
+.vertical-menu {
+  background: linear-gradient(to bottom, #2D68C4, #007FFF);
+  width: 350px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  overflow-y: auto;
+}
+
+.menu-item {
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 10px;
+  margin: 0px 0;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.menu-item:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  text-decoration: none;
+}
+
+#content {
+	/* background: linear-gradient(to bottom, #2D68C4, #007FFF); */
+	margin-left: 350px;
+	padding: 20px;
+}
+
+.content-link {
+  color: #3366cc;
+  text-decoration: none;
+  position: relative;
+}
+
+.content-link:hover {
+  color: #6699ff;
+  transition: color 0.3s ease;
+}
+
+.content-link::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #3366cc;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease;
+}
+
+.content-link:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.button-menu {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  border: none;
+  background: none;
+  font-family: Palatino Linotype, sans-serif;
+}
+
+.button-menu::before {
+  margin-left: auto;
+}
+
+.button-menu::after, .button-menu::before {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #ffffff;
+  display: block;
+  transition: 0.2s;
+}
+
+.button-menu:hover::after, .button-menu:hover::before {
+  width: 100%;
+}
+
+.button-89 {
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: #ffffff;
+  
+  font-family: Palatino Linotype, sans-serif;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-89:hover,
+.button-89:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.button-89:active {
+  background: var(--color);
+  color: #000;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.profile img {
+    width: 100px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: scale-down;
+}
+
+.lang-toggle {
+  margin-top: 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  border-bottom: 1px solid #333;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.fr {
+  display: block;
+}
+
+.en {
+  display: none;
+}
+
+body.lang-en .fr {
+  display: none;
+}
+
+body.lang-en .en {
+  display: block;
+}
+
+.nested-list {
+    /*max-width: 600px;*/
+    margin: 2px auto;
+    background-color: #ffffff;
+    padding: 2px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 4px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+ul ul {
+    margin-left: 20px;
+}
+
+ul ul ul {
+    margin-left: 40px;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.container {
+  list-style: none;
+  padding: 0;
+}
+
+.left-div {
+  width: 70%;
+  float: left;
+}
+
+.right-div {
+  width: 30%;
+  float: left;
+}
+
+
+.bibtex-biblio {
+	clear: both;
+	width: 100%;
+	margin-bottom: 0px;
+}
+.bibtex-entry {
+	width: 100%;
+	margin-bottom: 3px;
+}
+.bibtex-reference {
+	vertical-align: top;
+	width: 25px;
+	padding-right: 5px;
+}
+.bibtex-reference.bibtex-abbrv {
+	width: 75px;
+}
+.bibtex-citation {
+
+}
+
+.bibtex-mathmode {
+	font-family: Serif;
+	font-style: italic;
+}
+
+.bibtex-inproceedings.bibtex-natbib {
+	padding-left: 5px;
+}
+
+.bibtex-author {
+}
+.bibtex-title {
+	font-weight: 500;
+}
+.bibtex-booktitle {
+	font-style: italic;
+}
+.bibtex-pages {
+}
+.bibtex-publisher {
+}
+.bibtex-year {
+}
+
+.bibtex-journal {
+}
+.bibtex-author {
+}
+.bibtex-title {
+}
+.bibtex-year {
+}
+.bibtex-volume {
+}
+.bibtex-jname {
+	font-style: italic;
+}
+.bibtex-number {
+}
+.bibtex-pages {
+}
+.bibtex-publisher {
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  td {
+    
+    padding: 10px;
+  }
+  .first-cell {
+    width: 85%;
+  }
+  .second-cell {
+    width: 15%;
+	text-align: center;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center; /* Alignement horizontal au centre */
+    align-items: center; /* Alignement vertical au centre */
+    height: 100%; /* Remplir complètement la hauteur de la cellule */
+  }
+
+
+.image-hover-effect {
+  --g: 2px;     /* the gap */
+  --b: 2px;    /* border thickness*/
+  --c: #007FFF; /* the color */
+  
+  
+  padding: calc(var(--g) + var(--b));
+  --_c: #0000 0 25%, var(--c) 0 50%;
+  --_g1: repeating-linear-gradient(90deg ,var(--_c)) repeat-x;
+  --_g2: repeating-linear-gradient(180deg,var(--_c)) repeat-y;
+  background:
+    var(--_g1) var(--_p, 25%) 0   ,var(--_g2) 0    var(--_p,125%),
+    var(--_g1) var(--_p,125%) 100%,var(--_g2) 100% var(--_p, 25%);
+  background-size: 200% var(--b),var(--b) 200%;
+  cursor: pointer;
+  filter: grayscale(100%);
+  transition: .3s;
+}
+.image-hover-effect:hover {
+  --_p: 75%;
+  filter: grayscale(0%);
+}
+
+/* Style des onglets */
+.tabs {
+	display: flex;
+	justify-content: space-between;
+	background-color: #007FFF;
+}
+
+.tab {
+	flex: 1;
+	padding: 10px;
+	text-align: center;
+	cursor: pointer;
+	color: white;
+  /* text-decoration: none; */
+  font-size: 20px;
+  border: 1px solid white;
+  background: none;
+  font-family: Palatino Linotype, sans-serif;
+}
+
+/* Contenu des onglets */
+.tab-content {
+	display: none;
+}
+
+/* Affichage du contenu de l'onglet actif */
+.tab-content.active {
+	display: block;
+}
+
