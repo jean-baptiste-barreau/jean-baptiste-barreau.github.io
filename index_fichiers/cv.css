@@ -146,11 +146,11 @@ body {
 }
 
 .profile img {
-    width: 100px;
-    height: 150px;
-    border-radius: 50%;
-    margin-right: 20px;
-    object-fit: scale-down;
+    /* width: 100px; */
+    /* height: 150px; */
+    /* border-radius: 50%; */
+    /* margin-right: 20px; */
+    /* object-fit: scale-down; */
 }
 
 .lang-toggle {
