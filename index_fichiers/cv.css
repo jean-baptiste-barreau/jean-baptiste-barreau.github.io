@@ -373,3 +373,33 @@ table {
 	display: block;
 }
 
+.toggle-button {
+  background-color: #007fff; /* Couleur de fond bleue */
+  color: white; /* Couleur du texte blanche */
+  border: none; /* Supprimer la bordure par défaut */
+  border-radius: 50%; /* Appliquer un rayon de bordure de 50% pour obtenir un bouton rond */
+  width: 25px; /* Largeur du bouton */
+  height: 25px; /* Hauteur du bouton */
+  font-size: 16px; /* Taille de la police */
+  position: relative; /* Position relative pour le cercle */
+  overflow: hidden; /* Empêcher le contenu de déborder */
+}
+
+.toggle-button::after {
+  content: ""; /* Contenu vide pour le cercle */
+  position: absolute; /* Position absolue par rapport au bouton */
+  width: calc(100% + 20px); /* Largeur du cercle (bouton + largeur de la bordure) */
+  height: calc(100% + 20px); /* Hauteur du cercle (bouton + largeur de la bordure) */
+  border: 10px solid blue; /* Bordure de 10px de large de couleur bleue */
+  border-radius: 50%; /* Appliquer un rayon de bordure de 50% pour obtenir un cercle */
+  top: 50%; /* Décaler le cercle verticalement de moitié */
+  left: 50%; /* Décaler le cercle horizontalement de moitié */
+  transform: translate(-50%, -50%); /* Déplacer le cercle de moitié de sa taille pour le centrer */
+  transition: width 0.3s, height 0.3s; /* Animation de transition pour un effet de rétrécissement et d'expansion */
+  z-index: -1; /* Placer le cercle derrière le bouton */
+}
+
+.toggle-button:hover::after {
+  width: 0; /* Réduire la largeur du cercle lors du survol */
+  height: 0; /* Réduire la hauteur du cercle lors du survol */
+}
