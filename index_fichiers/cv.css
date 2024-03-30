@@ -403,3 +403,15 @@ table {
   width: 0; /* Réduire la largeur du cercle lors du survol */
   height: 0; /* Réduire la hauteur du cercle lors du survol */
 }
+
+.hoverBox {
+      position: center;
+      z-index: 10;
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 1px solid #ccc;
+      padding: 2px;
+      border-radius: 5px;
+      display: none;
+	  font-family: Palatino Linotype, sans-serif;
+    }
+	
