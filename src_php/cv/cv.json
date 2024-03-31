@@ -1,0 +1,2412 @@
+{
+	"Profile": {
+		"nom_fr": "Coordonnées",
+		"nom_en": "Contact details"
+	},
+	"Employment": {
+		"nom_fr": "Parcours professionnel",
+		"nom_en": "Career path",
+		"categories": [{
+				"nom_en": "Computer science research and engineering in the humanities",
+				"nom_fr": "Recherche et ingénierie informatique en sciences humaines",
+				"periodes": [{
+						"nom": "2022 - ...",
+						"postes": [{
+								"intitule_fr": "Ingénieur",
+								"intitule_en": "Engineer",
+								"institution_fr": "Centre National de la Recherche Scientifique",
+								"institution_en": "French National Centre for Scientific Research",
+								"institution_url": "https://www.bretagne-pays-de-la-loire.cnrs.fr/fr",
+								"lieu_fr": "Maison des Sciences de l'Homme Ange Guépin - UAR3491",
+								"lieu_en": "House of Human Sciences Ange Guépin - UAR3491",
+								"coord_geo": "47.212443226087146, -1.5387229177039534",
+								"lieu_url": "https://msh-ange-guepin.univ-nantes.fr/contacts/barreau-jean-baptiste",
+								"missions": [{
+										"intitule_fr": "Accompagnement des chercheurs et des responsables de projets de recherche dans la définition et la mise en œuvre de leur stratégie numérique",
+										"intitule_en": "Supporting researchers and research project leaders in the definition and implementation of their digital strategy"
+									},
+									{
+										"intitule_fr": "Formation dédiée à la connaissance, à la pratique et à l'utilisation des outils numériques pour la recherche en sciences humaines et sociales",
+										"intitule_en": "Training dedicated to the knowledge, practice and use of digital tools for research in the Humanities and Social Sciences"
+									},
+									{
+										"intitule_fr": "Recherche et développement sur l'ensemble du spectre numérique dans le domaine des sciences humaines et sociales",
+										"intitule_en": "Research and development on the entire digital spectrum in the Humanities and Social Sciences"
+									}
+								],
+								"images": [{
+										"img": "cnrs.png",
+										"url": "https://www.bretagne-pays-de-la-loire.cnrs.fr/fr"
+									},
+									{
+										"img": "msh.jpg",
+										"url": "https://msh-ange-guepin.univ-nantes.fr"
+									}
+								]
+							},
+							{
+								"intitule_fr": "Membre associé",
+								"intitule_en": "Associate member",
+								"institution_fr": "",
+								"institution_en": "",
+								"institution_url": "",
+								"lieu_fr": "Archéologie des Amériques (ArchAm) - UMR 8096",
+								"lieu_en": "Archaeology of the Americas (ArchAm) - UMR 8096",
+								"lieu_url": "https://archam.cnrs.fr/archam-2/les-membres-associes",
+								"missions": [{
+									"intitule_fr": "Productions 3D et bases de données",
+									"intitule_en": "3D productions and databases"
+								}],
+								"images": [
+									{
+										"img": "archam.png",
+										"url": "https://archam.cnrs.fr/archam-2/les-membres-associes"
+									}
+								]
+							}
+						]
+					},
+					{
+						"nom": "2021 - 2022",
+						"postes": [{
+								"intitule_fr": "Membre visiteur",
+								"intitule_en": "Visiting member",
+								"institution_fr": "Équipe de recherche Hybrid",
+								"institution_en": "Hybrid research team",
+								"institution_url": "https://team.inria.fr/hybrid",
+								"lieu_fr": "Institut de Recherche en Informatique et Systèmes Aléatoires (IRISA) - UMR 6074",
+								"lieu_en": "Research Institute of Computer Science and Random Systems - UMR 6074",
+								"coord_geo": "48.11458345014929, -1.6406601666734704",
+								"lieu_url": "https://www.irisa.fr",
+								"missions": [{
+									"intitule_fr": "Activité de recherche dans le domaine de la réalité virtuelle appliquée au patrimoine culturel, avec publications d’articles",
+									"intitule_en": "Research activity in the field of virtual reality applied to cultural heritage, with article publications"
+								}],
+								"images": [{
+										"img": "hybrid.png",
+										"url": "https://team.inria.fr/hybrid"
+									},
+									{
+										"img": "irisa.jpg",
+										"url": "https://www.irisa.fr"
+									}
+								]
+							},
+							{
+								"intitule_fr": "Ingénieur",
+								"intitule_en": "Engineer",
+								"institution_fr": "Centre National de la Recherche Scientifique",
+								"institution_en": "French National Centre for Scientific Research",
+								"institution_url": "https://www.iledefrance-gif.cnrs.fr/fr/la-delegation-regionale-cnrs-ile-de-france-gif-sur-yvette",
+								"lieu_fr": "Archéologie des Amériques (ArchAm) - UMR 8096 et Trajectoires. De la sédentarisation à l'état - UMR 8215",
+								"lieu_en": "Archaeology of the Americas (ArchAm) - UMR 8096 and Trajectoires. From sedentarization to State - UMR 8215",
+								"coord_geo": "48.85610547554774, 2.3610750111685808",
+								"lieu_url": "https://archam.cnrs.fr",
+								"missions": [{
+									"intitule_fr": "Responsable de la conception de bases de données archéologiques",
+									"intitule_en": "Head of archaeological databases design"
+								}],
+								"images": [{
+										"img": "cnrs.png",
+										"url": "https://www.bretagne-pays-de-la-loire.cnrs.fr/fr"
+									},
+									{
+										"img": "archam.png",
+										"url": "https://archam.cnrs.fr/archam-2/les-membres-associes"
+									},
+									{
+										"img": "Trajectoires.png",
+										"url": "https://trajectoires.cnrs.fr/"
+									}
+								]
+							}
+						]
+					},
+					{
+						"nom": "2011 - 2021",
+						"postes": [{
+							"intitule_fr": "Ingénieur",
+							"intitule_en": "Engineer",
+							"institution_fr": "Centre National de la Recherche Scientifique",
+							"institution_en": "French National Centre for Scientific Research",
+							"institution_url": "https://www.bretagne-pays-de-la-loire.cnrs.fr/fr",
+							"lieu_fr": "Centre de Recherche en Archéologie, Archéosciences, Histoire (CReAAH) - UMR 6566",
+							"lieu_en": "Center for Research in Archaeology, Archaeosciences and History - UMR 6566",
+							"coord_geo": "48.118983697261385, -1.6412189886935402",
+							"lieu_url": "https://creaah.cnrs.fr",
+							"missions": [{
+									"intitule_fr": "Responsable du développement d'applications informatiques, de productions 3D, de bases de données et de SIG",
+									"intitule_en": "Responsible for the development of computer applications, 3D productions, databases and GIS"
+								},
+								{
+									"intitule_fr": "Responsable de la sécurité des systèmes d'information",
+									"intitule_en": "In charge of information systems security"
+								}
+							],
+							"images": [{
+									"img": "cnrs.png",
+									"url": "https://www.bretagne-pays-de-la-loire.cnrs.fr/fr"
+								},
+								{
+									"img": "CReAAH.png",
+									"url": "https://creaah.cnrs.fr"
+								}
+							]
+						}]
+					}
+				]
+			},
+			{
+				"nom_en": "IT engineering for research in neuroscience",
+				"nom_fr": "Ingénierie informatique pour la recherche en neurosciences",
+				"periodes": [{
+					"nom": "2008 - 2011",
+					"postes": [{
+						"intitule_fr": "Ingénieur",
+						"intitule_en": "Engineer",
+						"institution_fr": "Centre National de la Recherche Scientifique",
+						"institution_en": "French National Centre for Scientific Research",
+						"institution_url": "https://www.aquitaine.cnrs.fr/fr",
+						"lieu_fr": "Laboratoire Nutrition et Neurobiologie Intégrée (NutriNeurO) - UMR 1286",
+						"lieu_en": "Nutrition and Integrated Neurobiology Laboratory (NutriNeurO) - UMR 1286",
+						"coord_geo": "44.82610140883017, -0.6056807974284113",
+						"lieu_url": "https://www6.bordeaux-aquitaine.inrae.fr/nutrineuro",
+						"missions": [{
+								"intitule_fr": "Développement et amélioration de solutions logicielles pour la collecte, la gestion et le traitement de données en neurobiologie",
+								"intitule_en": "Development and improvement of software solutions for data collection, management and processing in neurobiology"
+							},
+							{
+								"intitule_fr": "Conception, développement et administration du site web du laboratoire",
+								"intitule_en": "Design, development and administration of the laboratory's website"
+							}
+						],
+						"images": [{
+								"img": "cnrs.png",
+								"url": "https://www.bretagne-pays-de-la-loire.cnrs.fr/fr"
+							},
+							{
+								"img": "nutrineuro.png",
+								"url": "https://www6.bordeaux-aquitaine.inrae.fr/nutrineuro"
+							}
+						]
+					}]
+				}]
+			},
+			{
+				"nom_en": "Video game industry",
+				"nom_fr": "Industrie du jeu vidéo",
+				"periodes": [{
+					"nom": "2006 - 2008",
+					"postes": [{
+						"intitule_fr": "Ingénieur",
+						"intitule_en": "Engineer",
+						"institution_fr": "Salarié du privé",
+						"institution_en": "Private-sector employee",
+						"institution_url": "",
+						"lieu_fr": "SC2X-Mad Monkey Studio",
+						"lieu_en": "SC2X-Mad Monkey Studio",
+						"coord_geo": "44.83021811744822, -0.5605259966236807",
+						"lieu_url": "https://fr.wikipedia.org/wiki/Mad_Monkey_Studio",
+						"missions": [{
+							"intitule_fr": "Développement en C++ de jeux vidéos: <a href=\"https:\\/\\/www.jeuxvideo.com\/jeux\/nintendo-ds\/00021131-partouche-poker-tour.htm\" class=\"content-link\" target=\"_blank\">Partouche Poker Tour (PC, Nintendo DS)</a> et <a href=\"https:\\/\\/www.mobygames.com\/game\/89288\/my-hero-firefighter\" class=\"content-link\" target=\"_blank\">My Hero : Pompier (DS)</a>",
+							"intitule_en": "C++ video game development: <a href=\"https:\\/\\/www.jeuxvideo.com\/jeux\/nintendo-ds\/00021131-partouche-poker-tour.htm\" class=\"content-link\" target=\"_blank\">Partouche Poker Tour (PC, Nintendo DS)</a> and <a href=\"https:\\/\\/www.mobygames.com\/game\/89288\/my-hero-firefighter\" class=\"content-link\" target=\"_blank\">My Hero : Firefighter (DS)</a>"
+						}],
+						"images": [{
+								"img": "mms.png",
+								"url": "https://fr.wikipedia.org/wiki/Mad_Monkey_Studio"
+							}
+						]
+					}]
+				}]
+			}
+		]
+	},
+	"Educations": {
+		"nom_fr": "Éducation",
+		"nom_en": "Education",
+		"categories": [{
+			"nom_fr": "Informatique",
+			"nom_en": "Computer Sciences",
+			"education": [
+			{
+				"periode": "2014 - 2017",
+				"intitule_en": "Ph.D., Institut National des Sciences Appliquées (INSA) de Rennes in Computer Science",
+				"intitule_fr": "Doctorat, Institut National des Sciences Appliquées (INSA) de Rennes en Informatique",
+				"coord_geo": "48.120952441254744, -1.63566300252553",
+				"url": "https://ed-matisse.doctorat-bretagne.fr/fr",
+				"info_en": "<br>Thesis title: <link>Production, exploration and analysis techniques of virtual archaeological environments</link>. <br>Defended on 10/07/2017, directed by Bruno Arnaldi (Professor at INSA Rennes) and supervised by Valérie Gouranton (Associate Professor at INSA Rennes)",
+				"info_fr": "<br>Titre de la thèse : <link>Techniques de production, d'exploration et d'analyse des environnements archéologiques virtuels</link>. <br>Soutenue le 10/07/2017, dirigée par Bruno Arnaldi (Professeur à l'INSA de Rennes) et encadrée par Valérie Gouranton (Maître de Conférences à l'INSA de Rennes)",
+				"info_url": "https://tel.archives-ouvertes.fr/tel-01633811",
+				"images": [{
+						"img": "Doctorat.jpg",
+						"url": "https://github.com/jean-baptiste-barreau/jean-baptiste-barreau.github.io/blob/main/index_fichiers/big/Doctorat.jpg?raw=true"
+					}
+				]
+			},
+			{
+				"periode": "2005 - 2006",
+				"intitule_en": "Research Master's degree, University of Bordeaux 1 in Multimedia computing",
+				"intitule_fr": "Master Recherche, Université Bordeaux 1 en Informatique spécialité multimédia",
+				"coord_geo": "44.80841443756759, -0.596906616336474",
+				"url": "https://www.u-bordeaux.fr/universite/organisation-et-fonctionnement/composantes-de-formation/college-sciences-et-technologies/uf-informatique",
+				"info_en": " (Satisfactory)",
+				"info_fr": " (mention Assez Bien)",
+				"info_url": "",
+				"images": [{
+						"img": "master_recherche.jpg",
+						"url": "https://github.com/jean-baptiste-barreau/jean-baptiste-barreau.github.io/blob/main/index_fichiers/big/master_recherche.jpg?raw=true"
+					}
+				]
+			},
+			{
+				"periode": "2003 - 2006",
+				"intitule_en": "Engineering degree, Ecole nationale supérieure d'électronique, informatique, télécommunications, mathématique et mécanique de Bordeaux (Enseirb - Matmeca) in Computer Science",
+				"intitule_fr": "Diplôme d'ingénieur, Ecole nationale supérieure d'électronique, informatique, télécommunications, mathématique et mécanique de Bordeaux (Enseirb - Matmeca) en informatique",
+				"coord_geo": "44.80685831842584, -0.6051988906844954",
+				"url": "https://enseirb-matmeca.bordeaux-inp.fr",
+				"info_en": " (Satisfactory)",
+				"info_fr": " (mention Assez Bien)",
+				"info_url": "",
+				"images": [{
+						"img": "diplomeENSEIRB.jpg",
+						"url": "https://github.com/jean-baptiste-barreau/jean-baptiste-barreau.github.io/blob/main/index_fichiers/big/diplomeENSEIRB.jpg?raw=true"
+					}
+				]
+			}
+			]
+		},
+		{
+			"nom_fr": "Physique",
+			"nom_en": "Physics",
+			"education": [
+			{
+				"periode": "2021 - 2022",
+				"intitule_en": "BSC Degree, Conservatoire National des Arts et Métiers (CNAM) in mechanics",
+				"intitule_fr": "Licence 3 au Conservatoire National des Arts et Métiers (CNAM) en mécanique",
+				"url": "https://formation.cnam.fr/rechercher-par-discipline/licence-mecanique-669543.kjsp",
+				"info_en": " (stopped)",
+				"info_fr": " (arrêtée en cours)",
+				"info_url": "",
+				"images": [{
+						"img": "cnam.jpg",
+						"url": "https://formation.cnam.fr/rechercher-par-discipline/licence-mecanique-669543.kjsp"
+					}
+				]
+			},
+			{
+				"periode": "2002 - 2003",
+				"intitule_en": "French high-level schools of science and engineering exam",
+				"intitule_fr": "Concours commun d'entrée en école d'ingénieurs",
+				"url": "https://www.concours-commun-inp.fr/fr/ccinp.html",
+				"info_en": " (rank 46 out of 295 candidates)",
+				"info_fr": " (rang 46 sur 295 candidats classés)",
+				"info_url": "",
+				"images": [{
+						"img": "CCPDEUG.jpg",
+						"url": "https://github.com/jean-baptiste-barreau/jean-baptiste-barreau.github.io/blob/main/index_fichiers/big/CCPDEUG.jpg?raw=true"
+					}
+				]
+			},
+			{
+				"periode": "2001 - 2003",
+				"intitule_en": "Second-year university diploma at University of Bordeaux 1 in Material Sciences",
+				"intitule_fr": "DEUG à l'Université de Bordeaux 1 en sciences de la matière",
+				"url": "https://fr.wikipedia.org/wiki/Dipl%C3%B4me_d%27%C3%A9tudes_universitaires_g%C3%A9n%C3%A9rales",
+				"info_en": " (Satisfactory)",
+				"info_fr": " (mention Assez Bien)",
+				"info_url": "",
+				"images": [{
+						"img": "DEUG.jpg",
+						"url": "https://github.com/jean-baptiste-barreau/jean-baptiste-barreau.github.io/blob/main/index_fichiers/big/DEUG.jpg?raw=true"
+					}
+				]
+			}
+			]
+		}
+		]
+	},
+	"Projects": {
+		"nom_en": "Research projects",
+		"nom_fr": "Projets de recherche",
+		"categories": [{
+				"nom_en": "3D productions and Virtual Reality",
+				"nom_fr": "Productions 3D et réalité virtuelle",
+				"projets": [{
+						"periode": "2018 - ...",
+						"statut": "member",
+						"nom_en": "french national Consortium 3D SHS",
+						"nom_fr": "Consortium national français 3D SHS",
+						"url": "https://shs3d.hypotheses.org",
+						"manager_en": "the TGIR Huma-Num",
+						"manager_fr": "la TGIR Huma-Num",
+						"manager_url": "https://www.huma-num.fr",
+						"desc_fr": "Fédération de laboratoires pour la pratique de la production de modèles 3D dans le contexte scientifique des sciences humaines et sociales",
+						"desc_en": "Federation of laboratories for practice of 3D models production in the scientific context of humanities and social sciences",
+						"people": [{
+							"number": 40,
+							"country_fr": "France",
+							"country_en": "France"
+						}],
+						"images": [{
+								"img": "consortium3D.jpg",
+								"url": "https://shs3d.hypotheses.org"
+							}
+						]
+					},
+					{
+						"periode": "2017 - 2021",
+						"statut": "member",
+						"nom_en": "Franco-Quebec Introspect project",
+						"nom_fr": "projet franco-québécois Introspect",
+						"url": "http://introspect.info",
+						"funder_en": "the ANR-FRQSC-2",
+						"funder_fr": "l'ANR-FRQSC-2",
+						"desc_fr": "Introspection de matériel archéologique à l'ère numérique",
+						"desc_en": "Introspection of archaeological material in the Digital Age",
+						"people": [{
+								"number": 5,
+								"country_fr": "France",
+								"country_en": "France"
+							},
+							{
+								"number": 6,
+								"country_fr": "Québec",
+								"country_en": "Quebec"
+							}
+						],
+						"images": [{
+								"img": "introspect.png",
+								"url": "http://introspect.info"
+							}
+						]
+					},
+					{
+						"periode": "2018 - 2020",
+						"statut": "member",
+						"nom_en": "Menez-Dregan collaborative research project",
+						"nom_fr": "projet collaboratif de recherche Menez-Dregan",
+						"desc_fr": "Études du site préhistorique de Menez-Dregan (Plouhinec, France) et des premiers peuplements de l'Ouest de la France à travers les dépôts pléistocènes et les occupations paléolithiques dans la région Bretagne",
+						"desc_en": "Studies of the prehistoric site of Menez-Dregan (Plouhinec, France) and the first settlements of Western France through Pleistocene deposits and Paleolithic occupations in the Brittany region",
+						"people": [{
+							"number": 20,
+							"country_fr": "France",
+							"country_en": "France"
+						}]
+					},
+					{
+						"periode": "2017 - ...",
+						"statut": "member",
+						"nom_en": "Le Rozel collaborative research project",
+						"nom_fr": "projet collaboratif de recherche Le Rozel",
+						"desc_fr": "Études du site paléolithique français du Rozel. L'originalité du site, qui compte parmi les sites majeurs du Paléolithique moyen des sites paléolithiques en Europe occidentale, consiste en la présence et la préservation de dizaines d'empreintes de pattes d'animaux et surtout de plusieurs centaines d'empreintes de pieds, de mains d'individus de tous âges constituant les groupes de Néandertaliens qui ont fréquenté de façon récurrente le site, il y a environ 80 000 ans",
+						"desc_en": "Studies of the french paleolithic site of Le Rozel. The originality of the site, which counts among the major sites of the Middle Paleolithic of Paleolithic sites in Western Europe, consists in the presence and preservation of dozens of animal paw prints and especially of several hundred footprints, of hands of individuals of all ages constituting the groups of Neanderthals who frequented in a recurring way the site, approximately 80 000 years ago",
+						"people": [{
+							"number": 23,
+							"country_fr": "France",
+							"country_en": "France"
+						}]
+					},
+					{
+						"periode": "2017 - 2020",
+						"statut": "member",
+						"nom_en": "Roman fortified wall of Le Mans collaborative research project",
+						"nom_fr": "projet collaboratif de recherche sur l'enceinte fortifiée romaine du Mans",
+						"desc_fr": "Études de l'enceinte du Mans, capitale du peuple gaulois des Aulerques Cénomans, construite à la fin du IIIe siècle",
+						"desc_en": "Studies of the walls of Le Mans, capital of the Gallic people of the Aulerques Cénomans, which was built at the end of the 3rd century",
+						"people": [{
+							"number": 32,
+							"country_fr": "France",
+							"country_en": "France"
+						}]
+					},
+					{
+						"periode": "2015 - 2016",
+						"statut": "member",
+						"nom_en": "IRMA project",
+						"nom_fr": "projet IRMA",
+						"url": "https://www.irisa.fr/immersia/irm/",
+						"funder_en": "the CNRS",
+						"funder_fr": "le CNRS",
+						"desc_fr": "Imagerie dans le domaine du patrimoine culturel, technologies d'imagerie médicale et méthodes de modalités 3D interactives",
+						"desc_en": "Imaging in the field of cultural heritage, medical imaging technologies and methods of interactive 3D modalities",
+						"people": [{
+							"number": 5,
+							"country_fr": "France",
+							"country_en": "France"
+						}]
+					},
+					{
+						"periode": "2014 - 2016",
+						"statut": "member",
+						"nom_en": "Common Cultural Connexions project",
+						"nom_fr": "projet Common Cultural Connexions",
+						"url": "http://commonculturalconnections.maritimearchaeologytrust.org",
+						"funder_en": "the Creative Europe Programme",
+						"funder_fr": "le Creative Europe Programme",
+						"desc_fr": "Meilleure compréhension du patrimoine culturel européen commun grâce à une exposition mobile innovante",
+						"desc_en": "Enhanced understanding of the shared european cultural heritage through an innovative mobile exhibition",
+						"people": [{
+								"number": 6,
+								"country_fr": "France",
+								"country_en": "France"
+							},
+							{
+								"number": 5,
+								"country_fr": "Angleterre",
+								"country_en": "England"
+							},
+							{
+								"number": 4,
+								"country_fr": "Espagne",
+								"country_en": "Spain"
+							}
+						],
+						"images": [{
+								"img": "ccc.png",
+								"url": "http://commonculturalconnections.maritimearchaeologytrust.org"
+							}
+						]
+					},
+					{
+						"periode": "2013 - 2021",
+						"statut": "coleader",
+						"nom_en": "West Digital Conservatory of Archaeological Heritage (WDCAH) project",
+						"nom_fr": "projet Conservatoire Numérique du Patrimoine Archéologique de l'Ouest (CNPAO)",
+						"url": "https://journals.openedition.org/nda/3840",
+						"funder_en": "the European University of Brittany",
+						"funder_fr": "l'Université Européenne de Bretagne",
+						"desc_fr": "Production et archivage de données archéologiques 3D",
+						"desc_en": "Production and archiving of 3D archaeological data",
+						"people": [{
+							"number": 6,
+							"country_fr": "France",
+							"country_en": "France"
+						}],
+						"images": [{
+								"img": "cnpao.png",
+								"url": "https://journals.openedition.org/nda/3840"
+							}
+						]
+					}
+				]
+			},
+			{
+				"nom_en": "Databases and collaborative interfaces for archaeology and history",
+				"nom_fr": "Bases de données et interfaces collaboratives pour l’archéologie et l'histoire",
+				"projets": [{
+						"periode": "2021 - ...",
+						"statut": "member",
+						"nom_en": "NumArchAm project",
+						"nom_fr": "projet NumArchAm",
+						"url": "https://archam.cnrs.fr/activites-darcham/ressources-numeriques/numarcham",
+						"desc_fr": "Numérisation des données scientifiques du laboratoire ArchAm pour la valorisation des programmes archéologiques français aux Amériques",
+						"desc_en": "Digitization of scientific data from the ArchAm laboratory for the valorization of French archaeological programs in the Americas",
+						"people": [{
+							"number": 6,
+							"country_fr": "France",
+							"country_en": "France"
+						}],
+						"images": [{
+								"img": "NumArchAm.jpg",
+								"url": "https://archam.cnrs.fr/activites-darcham/ressources-numeriques/numarcham"
+							}
+						]
+					},
+					{
+						"periode": "2020 - ...",
+						"statut": "member",
+						"nom_en": "Littoral Archeology Across the Atlantic (ALOA) project",
+						"nom_fr": "projet Archéologie Littorale Outre Atlantique (ALOA)",
+						"url": "https://aloa.blog",
+						"funder_en": "the Fondation de France",
+						"funder_fr": "la Fondation de France",
+						"desc_fr": "Anticipation des effets destructeurs sur le patrimoine culturel, côtier et maritime des Antilles françaises",
+						"desc_en": "Anticipation of destructive effects on the cultural, coastal and maritime heritage in the French Caribbean Islands",
+						"people": [{
+								"number": 12,
+								"country_fr": "France",
+								"country_en": "France"
+							},
+							{
+								"number": 1,
+								"country_fr": "Espagne",
+								"country_en": "Spain"
+							}
+						],
+						"images": [{
+								"img": "aloa.png",
+								"url": "https://aloa.blog"
+							}
+						]
+					},
+					{
+						"periode": "2019 - ...",
+						"statut": "coleader",
+						"nom_en": "Archeology of Disability project",
+						"nom_fr": "projet archéologie du handicap",
+						"url": "https://archeohandi.huma-num.fr",
+						"manager_en": "the INRAP",
+						"manager_fr": "l'INRAP",
+						"manager_url": "https://www.inrap.fr",
+						"desc_fr": "Projet de recherche archéologique et enquête nationale pour une lecture de la prise en charge des corps différents",
+						"desc_en": "Archaeological research project and national survey for a reading of the care of different bodies",
+						"people": [{
+							"number": 32,
+							"country_fr": "France",
+							"country_en": "France"
+						}],
+						"images": [{
+								"img": "handicap.jpg",
+								"url": "https://archeohandi.huma-num.fr"
+							}
+						]
+					},
+					{
+						"periode": "2019 - 2021",
+						"statut": "member",
+						"nom_en": "Iconography and Anthropology Collections of Rennes (ICARE) project",
+						"nom_fr": "projet Iconographie et Collections d’Anthropologie de Rennes (ICARE)",
+						"url": "https://icare.hypotheses.org",
+						"desc_fr": "Etude, numérisation et valorisation de fonds documentaires iconographiques anciens inédits concernant le patrimoine archéologique et culturel de l'Ouest de la France",
+						"desc_en": "Study, digitization and development of unpublished ancient iconographic documentary collections concerning the archaeological and cultural heritage of the West of France",
+						"people": [{
+							"number": 6,
+							"country_fr": "France",
+							"country_en": "France"
+						}],
+						"images": [{
+								"img": "icare.png",
+								"url": "https://icare.hypotheses.org"
+							}
+						]
+					},
+					{
+						"periode": "2019 - 2021",
+						"statut": "coleader",
+						"nom_en": "Digital Attic Prosopography (PA-NUM) project",
+						"nom_fr": "projet Prosopographie attique numérique (PA-NUM)",
+						"url": "https://prosopographie-attique.huma-num.fr",
+						"funder_en": "the University of Rennes 2 with support from the University of Montpellier",
+						"funder_fr": "l'Université de Rennes 2 avec le soutien de l'Université de Montpellier",
+						"desc_fr": "Projet collaboratif pour une base de données prosopographique en ligne",
+						"desc_en": "Collaborative project for an online prosopographic database",
+						"people": [{
+							"number": 5,
+							"country_fr": "France",
+							"country_en": "France"
+						}]
+					},
+					{
+						"periode": "2018 - 2021",
+						"statut": "member",
+						"nom_en": "societies, biodiversity and environment research group (BioarchéoDat)",
+						"nom_fr": "groupe de recherche Sociétés, biodiversité et environnement (BioarchéoDat)",
+						"url": "https://bioarcheodat.hypotheses.org/",
+						"desc_fr": "Données et résultats de l'archéozoologie et de l'archéobotanique sur le territoire de la France",
+						"desc_en": "Data and results of archaeozoology and archaeobotany on the territory of France",
+						"people": [{
+							"number": 255,
+							"country_fr": "France",
+							"country_en": "France"
+						}],
+						"images": [{
+								"img": "Bioarcheodat.png",
+								"url": "https://bioarcheodat.hypotheses.org/"
+							}
+						]
+					},
+					{
+						"periode": "2016 - 2021",
+						"statut": "member",
+						"nom_en": "CNRS databases and standards working expertise group",
+						"nom_fr": "groupe d'expertise de travail CNRS sur les bases de données et leurs normes",
+						"url": "https://archeometrie.prod.lamp.cnrs.fr/jt-atelier/gt1-bases-de-donnees-et-referentiels/",
+						"manager_en": "the CAI-RN archaeometry network (Interdisciplinary Archaeometric Skills - National Network)",
+						"manager_fr": "le réseau du CAI-RN archéométrie (Compétences Archéométriques Interdisciplinaires – Réseau National)",
+						"manager_url": "https://archeometrie.prod.lamp.cnrs.fr/",
+						"desc_fr": "Création, exploitation et maintenance de bases de données archéométriques",
+						"desc_en": "Creation, exploitation and maintenance of archeometric databases",
+						"people": [{
+							"number": 8,
+							"country_fr": "France",
+							"country_en": "France"
+						}]
+					},
+					{
+						"periode": "2015 - ...",
+						"statut": "coleader",
+						"nom_en": "HumanOS project",
+						"nom_fr": "projet HumanOS",
+						"url": "https://www.humanos.cnrs.fr",
+						"manager_en": "the INRAP",
+						"manager_fr": "l'INRAP",
+						"manager_url": "https://www.inrap.fr",
+						"desc_fr": "Un logiciel nomade open source pour l'anthropologie physique et l'archéologie",
+						"desc_en": "An open source nomadic software database for physical anthropology and archaeology",
+						"people": [{
+							"number": 3,
+							"country_fr": "France",
+							"country_en": "France"
+						}]
+					},
+					{
+						"periode": "2014 - 2019",
+						"statut": "coleader",
+						"nom_en": "MyOs project",
+						"nom_fr": "projet MyOs",
+						"url": "http://base-myos.fr/",
+						"funder_en": "the ERC Advanced Grant RurLand (Rural Landscape in north-eastern Roman Gaul)",
+						"funder_fr": "l'ERC Advanced Grant RurLand (Paysage rural du nord-est de la Gaule romaine)",
+						"desc_fr": "Une base de données pour recueillir des informations sur les études archéozoologiques menées dans le quart nord-est de la Gaule romaine",
+						"desc_en": "A database for gathering information on archaeozoological studies conducted in the north-eastern quarter of Roman Gaul",
+						"people": [{
+							"number": 25,
+							"country_fr": "France",
+							"country_en": "France"
+						}],
+						"images": [{
+								"img": "myos.png",
+								"url": "http://base-myos.fr/"
+							}
+						]
+					},
+					{
+						"periode": "2014 - 2017",
+						"statut": "member",
+						"nom_en": "PROCOME project",
+						"nom_fr": "projet PROCOME",
+						"url": "https://anr.fr/Project-ANR-13-CULT-0001",
+						"funder_en": "the ANR",
+						"funder_fr": "l'ANR",
+						"desc_fr": "Études de l'extension continentale de la néolithisation méditerranéenne",
+						"desc_en": "Studies of the continental extension of the Mediterranean Neolithization",
+						"people": [{
+							"number": 22,
+							"country_fr": "France",
+							"country_en": "France"
+						}],
+						"images": [{
+								"img": "procome.png",
+								"url": "https://anr.fr/Project-ANR-13-CULT-0001"
+							}
+						]
+					},
+					{
+						"periode": "2013 - 2021",
+						"statut": "member",
+						"nom_en": "Greek Cult-Epithets Data Base",
+						"nom_fr": "Banque de Données des Epiclèses Grecques (BDEG)",
+						"url": "https://epiclesesgrecques.univ-rennes1.fr",
+						"desc_fr": "Outil d’étude du polythéisme et, plus largement, de la religion grecque",
+						"desc_en": "A tool which allowed researchers to study Greek polytheism and, more broadly, Greek religion",
+						"people": [{
+							"number": 3,
+							"country_fr": "France",
+							"country_en": "France"
+						}]
+					},
+					{
+						"periode": "2012 - 2014",
+						"statut": "member",
+						"nom_en": "INTERREG Arch-Manche project",
+						"nom_fr": "projet INTERREG Arch-Manche",
+						"url": "https://archmanche.maritimearchaeologytrust.org",
+						"funder_en": "the European Regional Development Fund",
+						"funder_fr": "le European Regional Development Fund",
+						"desc_fr": "des outils pour soutenir l'archéologie, l'art, la gestion du patrimoine côtier et la planification du changement climatique à travers la Mer Régionale de la Manche",
+						"desc_en": "tools to support archaeology, art, coastal heritage management and climate change planning across the Channel Regional Sea",
+						"people": [{
+								"number": 10,
+								"country_fr": "France",
+								"country_en": "France"
+							},
+							{
+								"number": 1,
+								"country_fr": "Pays-Bas",
+								"country_en": "Netherlands"
+							},
+							{
+								"number": 4,
+								"country_fr": "Belgique",
+								"country_en": "Belgium"
+							},
+							{
+								"number": 5,
+								"country_fr": "Angleterre",
+								"country_en": "England"
+							}
+						],
+						"images": [{
+								"img": "Arch-Manche.png",
+								"url": "https://archmanche.maritimearchaeologytrust.org"
+							}
+						]
+					},
+					{
+						"periode": "2012 - 2013",
+						"statut": "member",
+						"nom_en": "CNRS database expertise rBDD group",
+						"nom_fr": "groupe d'expertise CNRS base de données rBDD",
+						"url": "https://rbdd.cnrs.fr",
+						"desc_fr": "Fédération de questionnements, bonnes pratiques et formations pour la création de bases de données au sein des laboratoires du CNRS",
+						"desc_en": "Federation of questioning, good practices and training for the creation of databases within the CNRS laboratories",
+						"people": [{
+							"number": 6,
+							"country_fr": "France",
+							"country_en": "France"
+						}],
+						"images": [{
+								"img": "rBDD.png",
+								"url": "https://rbdd.cnrs.fr"
+							}
+						]
+					},
+					{
+						"periode": "2011 - 2021",
+						"statut": "member",
+						"nom_en": "Digital Data Management Service of the Rennes Observatory of Universe Sciences",
+						"nom_fr": "Service de Gestion des Données Numériques de l'Observatoire des Sciences de l'Univers de Rennes",
+						"url": "https://osur.univ-rennes.fr/service-de-gestion-des-donnees-numeriques-sgdn",
+						"manager_en": "the OSUR",
+						"manager_fr": "l'OSUR",
+						"manager_url": "https://osur.univ-rennes.fr/",
+						"desc_fr": "Structure ayant vocation à récupérer, traiter, archiver et mettre à disposition l’information numérique produite par les différents services d’observation de l’Observatoire de Rennes",
+						"desc_en": "Structure dedicated to retrieving, processing, archiving and making available the digital information produced by the Rennes Observatory' various observation services",
+						"people": [{
+							"number": 12,
+							"country_fr": "France",
+							"country_en": "France"
+						}],
+						"images": [{
+								"img": "logo_SGDN.jpg",
+								"url": "https://osur.univ-rennes.fr/service-de-gestion-des-donnees-numeriques-sgdn"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"Publications": {
+		"nom_en": "Scientific publications",
+		"nom_fr": "Publications scientifiques",
+		"onglets": [
+		{
+			"nom_en": "References",
+			"nom_fr": "Références"
+		},
+		{
+			"nom_en": "Image gallery",
+			"nom_fr": "Galerie d'images"
+		}
+		],
+		"images": [
+			{
+				"img": "dinan.png",
+				"url": "http://bibliotheque-numerique-sra-bretagne.huma-num.fr/s/sra-bretagne/item/32028"
+			},
+			{
+				"img": "wanar.jpg",
+				"url": "https://sepsen.cnrs.fr/carrieres/"
+			},
+			{
+				"img": "varenne.jpg",
+				"url": "https://www.sciencedirect.com/science/article/pii/S2212054823000516"
+			},
+			{
+				"img": "archeohandi_var.jpg",
+				"url": "https://polipapers.upv.es/index.php/var/article/view/20003"
+			},
+			{
+				"img": "kerfons.jpg",
+				"url": "https://www.sciencedirect.com/science/article/abs/pii/S2352409X23003528"
+			},
+			{
+				"img": "Rotheneuf.jpg",
+				"url": "https://dl.acm.org/doi/10.1145/3522595"
+			},
+			{
+				"img": "clavicule_bev.jpg",
+				"url": "https://www.mdpi.com/2076-3417/12/3/1381"
+			},
+			{
+				"img": "paume_vr.jpg",
+				"url": "https://www.frontiersin.org/articles/10.3389/frvir.2022.922415/full"
+			},
+			{
+				"img": "olonne_cemetery.png",
+				"url": "https://www.mdpi.com/2072-4292/13/9/1688"
+			},
+			{
+				"img": "tomo_apprab.jpg",
+				"url": "http://aprab.org/bulletins/APRAB_bulletin_19.pdf"
+			},
+			{
+				"img": "Virtualanthropy.jpg",
+				"url": "https://irispublishers.com/oajaa/pdf/OAJAA.MS.ID.000546.pdf"
+			},
+			{
+				"img": "mordelaises_vr.jpg",
+				"url": "https://polipapers.upv.es/index.php/var/article/view/12653"
+			},
+			{
+				"img": "vie_boullongne.jpg",
+				"url": "https://journals.openedition.org/insitu/27496"
+			},
+			{
+				"img": "humanos_var.jpg",
+				"url": "https://polipapers.upv.es/index.php/var/article/view/13422"
+			},
+			{
+				"img": "ilot_palais_ISPRS.jpg",
+				"url": "https://isprs-archives.copernicus.org/articles/XLII-2-W15/879/2019/"
+			},
+			{
+				"img": "humanos_nil.jpg",
+				"url": "https://www.persee.fr/doc/arnil_1161-0492_2018_num_28_1_1299"
+			},
+			{
+				"img": "ERCIM.jpg",
+				"url": "https://inria.hal.science/hal-01659814"
+			},
+			{
+				"img": "cnpao_stats.jpg",
+				"url": "http://www.openscience.fr/Etude-d-une-structure-dediee-a-la-production-et-l-exploration-de-donnees-3D"
+			},
+			{
+				"img": "Alet.png",
+				"url": "https://riunet.upv.es/bitstream/handle/10251/82700/5862-27411-1-PB.pdf?sequence=1&isAllowed=y"
+			},
+			{
+				"img": "flagellation_piero.jpg",
+				"url": "https://www.cairn.info/revue-annales-2017-3-page-737.htm"
+			},
+			{
+				"img": "cnpao_nouv_archeo.jpg",
+				"url": "https://journals.openedition.org/nda/3840"
+			},
+			{
+				"img": "bretelliere.png",
+				"url": "https://www.researchgate.net/publication/311714275_Les_steles_gravees_du_plateau_de_la_bretelliere_a_saint-macaire-en-mauges"
+			},
+			{
+				"img": "boullongne_presence.png",
+				"url": "https://direct.mit.edu/pvar/article-abstract/24/3/201/59072/An-Immersive-Virtual-Sailing-on-the-18th-Century?redirectedFrom=fulltext"
+			},
+			{
+				"img": "wreck_isprs.png",
+				"url": "https://isprs-archives.copernicus.org/articles/XL-5-W5/131/2015/isprsarchives-XL-5-W5-131-2015.pdf"
+			},
+			{
+				"img": "Lillemer.jpg",
+				"url": "https://www.cambridge.org/core/journals/antiquity/article/abs/another-brick-in-the-wall-fifth-millennium-bc-earthenwalled-architecture-on-the-channel-shores/E6596779108F8A8CD8BD04FE8CED9AB0"
+			},
+			{
+				"img": "ceramics_fragments_ijhde.png",
+				"url": "https://hal.science/hal-01394971/document"
+			},
+			{
+				"img": "Psychoneuroendocrinology.png",
+				"url": "https://www.sciencedirect.com/science/article/abs/pii/S0306453012000534?via%3Dihub"
+			},
+			{
+				"img": "eXtended_Reality.png",
+				"url": "https://link.springer.com/referenceworkentry/10.1007/978-3-030-60016-7_48"
+			},
+			{
+				"img": "alep_book.png",
+				"url": "https://link.springer.com/chapter/10.1007/978-3-030-15200-0_24"
+			},
+			{
+				"img": "piero_creaah.png",
+				"url": "https://creaah.cnrs.fr/wp-content/uploads/2017/11/Journee-du-CReAAH-2019.pdf"
+			},
+			{
+				"img": "ICAT-EGVE.png",
+				"url": "https://diglib.eg.org/bitstream/handle/10.2312/egve20191283/073-080.pdf?sequence=1&isAllowed=y"
+			},
+			{
+				"img": "rotheneuf_EUROGRAPHICS.png",
+				"url": "http://diglib.eg.org/bitstream/handle/10.2312/gch20181357/179-183.pdf?sequence=1&isAllowed=y"
+			},
+			{
+				"img": "archeologie_imagerie_numerique_3D.jpg",
+				"url": "https://sstinrap.hypotheses.org/1299"
+			},
+			{
+				"img": "cliff_vr.png",
+				"url": "https://cris.brighton.ac.uk/ws/portalfiles/portal/5038771/Virtual_Reality_VR_interactions_with_multiple.pdf"
+			},
+			{
+				"img": "alep_DCH_2017.png",
+				"url": "https://inria.hal.science/hal-01659865"
+			},
+			{
+				"img": "alet_ARQUEOLoGICA.png",
+				"url": "https://riunet.upv.es/bitstream/handle/10251/85995/4151-11560-1-PB.pdf?sequence=1&isAllowed=y"
+			},
+			{
+				"img": "Bone_Flutes.png",
+				"url": "https://dl.acm.org/doi/10.1007/978-3-319-48496-9_15"
+			},
+			{
+				"img": "Loyola_vr.png",
+				"url": "https://inria.hal.science/hal-01244849"
+			},
+			{
+				"img": "abcdata_caa.png",
+				"url": "https://univ-rennes.hal.science/hal-02459295"
+			},
+			{
+				"img": "Coatfrec.png",
+				"url": "https://link.springer.com/chapter/10.1007/978-3-319-13695-0_40"
+			},
+			{
+				"img": "VRIC.jpg",
+				"url": "https://dl.acm.org/doi/10.1145/2617841.2617845"
+			},
+			{
+				"img": "AFRV.png",
+				"url": "https://www.researchgate.net/publication/311713380_La_Realite_Virtuelle_au_Conservatoire_Numerique_du_Patrimoine_Archeologique_de_l%27Ouest"
+			},
+			{
+				"img": "Ceramics_EuroMed.png",
+				"url": "https://arxiv.org/abs/1412.1330"
+			},
+			{
+				"img": "Roh-Coh-Coet_CReAAH.png",
+				"url": "https://www.researchgate.net/publication/311714370_Carriere_de_Menhirs_rochers_naturels_et_maisons_des_morts_l%27exemple_du_site_de_Roh-Coh-Coet_dans_le_Morbihan"
+			},
+			{
+				"img": "CNPAO_DH.png",
+				"url": "https://ieeexplore.ieee.org/document/6743795"
+			},
+			{
+				"img": "ALERT-Mobile.jpg",
+				"url": "https://ieeexplore.ieee.org/document/6744828"
+			},
+			{
+				"img": "CogInfoCom.png",
+				"url": "https://ieeexplore.ieee.org/abstract/document/6719200"
+			},
+			{
+				"img": "VAST2012.png",
+				"url": "https://diglib.eg.org/handle/10.2312/VAST.VAST12.065-072"
+			},
+			{
+				"img": "Bec.png",
+				"url": "http://bibliotheque-numerique-sra-bretagne.huma-num.fr/s/sra-bretagne/item/30762"
+			},
+			{
+				"img": "Marcille-Robert.png",
+				"url": "http://bibliotheque-numerique-sra-bretagne.huma-num.fr/s/sra-bretagne/item/30550"
+			},
+			{
+				"img": "Barnenez_2014.png",
+				"url": "http://bibliotheque-numerique-sra-bretagne.huma-num.fr/s/sra-bretagne/item/30342"
+			},
+			{
+				"img": "alert_sra.png",
+				"url": "http://bibliotheque-numerique-sra-bretagne.huma-num.fr/s/sra-bretagne/item/29445"
+			},
+			{
+				"img": "lillemer_sra.png",
+				"url": "http://bibliotheque-numerique-sra-bretagne.huma-num.fr/s/sra-bretagne/item/30232"
+			},
+			{
+				"img": "mammoth.png",
+				"url": "https://www.researchgate.net/publication/343979519_Study_of_the_identity_of_a_Breton_mammoth_from_flattened_tusk_pieces_tomography"
+			},
+			{
+				"img": "sgdn.png",
+				"url": "https://insu.hal.science/insu-02064868"
+			},
+			{
+				"img": "Quiberon_CCC.png",
+				"url": "https://commonculturalconnections.maritimearchaeologytrust.org/uploads/images/Posters/FR_Evolution%20du%20milieu%20marin.pdf"
+			},
+			{
+				"img": "BasePetroCeram.png",
+				"url": "https://hal.science/hal-01519774/document"
+			},
+			{
+				"img": "valouest2014.png",
+				"url": "https://github.com/jean-baptiste-barreau/jean-baptiste-barreau.github.io/blob/main/index_fichiers/big/valouest2014.pdf"
+			},
+			{
+				"img": "Alert_Rencontres_2014.png",
+				"url": "https://www.researchgate.net/publication/290152551_De_nouveaux_outils_d%27observation_et_de_gestion_du_patrimoine_littoral_de_la_Bretagne_Alert_et_Alert_mobile"
+			},
+			{
+				"img": "ABCDATA_Mody.png",
+				"url": "http://www.gamsau.map.cnrs.fr/modys/posters/JB_Barreau/etModys2012_JBBarreauA3.pdf"
+			}
+		],
+		"categories_autres": {
+			"nom_en": "Evocations in books, articles, conference presentations and websites",
+			"nom_fr": "Évocations dans des livres, articles, présentations de conférences et sites internet",
+			"illustrations": [
+			{
+				"article": "Laporte, L. & <b>Barreau, J.B</b> <i><a href=\"https:\\/\\/sepsen.cnrs.fr\/carrieres\" class=\"content-link\" target=\"_blank\">Remontages virtuels de deux monolithes brisés dans les carrières de Wanar, pesant plus d’une tonne chacun, par le biais de la photogrammétrie</a>.</i> Site du projet de recherche archéologique SEPSEN, 2023.",
+				"coord_geo": "13.856904159760738, -15.617924914319214",
+				"dates": "701, 1299"
+			},
+			{
+				"article": "Kermoal, C. <i><a href=\"https:\\/\\/www.decitre.fr\/livres\/notre-dame-de-kerfons-9782490508303.html\" class=\"content-link\" target=\"_blank\">Notre-Dame de Kerfons: essai d′histoire monumentale</a>.</i> Collection PATRIMOINES, 2023.",
+				"coord_geo": "48.68692094903257, -3.42530533290868",
+				"dates": "1400, 1425"
+			},
+			{
+				"article": "Mercier, F. <i><a href=\"http:\\/\\/editions.ehess.fr\/ouvrages\/ouvrage\/piero-della-francesca\" class=\"content-link\" target=\"_blank\">Piero della Francesca. Une conversion du regard</a>.</i> Éditions EHESS, 2021.",
+				"coord_geo": "43.72444231226928, 12.63653754906697",
+				"dates": "1445, 1475"
+			},
+			{
+				"article": "Paradis, M.A. <i><a href=\"https:\\/\\/hdl.handle.net\/20.500.11794\/69313\" class=\"content-link\" target=\"_blank\">Phénoménologie au Palais de l'Intendant de Québec: l'archéologie numérique comme nouvelle méthode de recherche</a></i>. Diss. Université Laval, 2021.",
+				"coord_geo": "46.8154365530345, -71.2145354974604",
+				"dates": "1650, 1853"
+			},
+			{
+				"article": "Dufeil, M. <i><a href=\"http:\\/\\/bibliotheque-numerique-sra-bretagne.huma-num.fr\/s\/sra-bretagne\/item\/32028\" class=\"content-link\" target=\"_blank\">Dinan (22). La porte Saint-Malo. Rapport de prospection thématique 2018</a>.</i> Service régional de l'archéologie de Bretagne",
+				"coord_geo": "48.45640168905181, -2.0433329674378875",
+				"dates": "1250, 1680"
+			},
+			{
+				"article": "Bernard, Y. <a href=\"https:\\/\\/virtual-archeo.com\/a-propos\" class=\"content-link\" target=\"_blank\">Virtual-Archéo - A propos</a>. <i>virtual-archeo.com</i>, 2020"	
+			},
+			{
+				"article": "Esnault, E. <a href=\"https:\\/\\/journals.openedition.org\/archeomed\/23758\" class=\"content-link\" target=\"_blank\">Rennes (Ille-et-Vilaine). Les Portes Mordelaises</a>. <i>Archéologie médiévale</i> 49:329, 2019.",
+				"coord_geo": "48.111945907831235, -1.6847126238495818",
+				"dates": "1418, 1694"
+			},
+			{
+				"article": "Karila-Cohen, K. <a href=\"https:\\/\\/www.cairn.info\/revue-annales-2018-4-page-785.htm\" class=\"content-link\" target=\"_blank\">Le graphe, la trace et les fragments: l’apport des méthodes quantitatives et des outils numériques à l’étude des élites civiques athéniennes</a>. In <i>Annales. Histoire, Sciences Sociales</i>, Vol. 73, No. 4, pp. 785-815, Cambridge University Press, 2018",
+				"coord_geo": "37.98441939432753, 23.726449599985287",
+				"dates": "-323, -30"
+			},
+			{
+				"article": "Léon, Y. <a href=\"https:\\/\\/www.ouest-france.fr\/pays-de-la-loire\/mayenne-53100\/mayenne-et-si-vous-vous-preniez-pour-un-archeologue-ce-week-end-5820869\" class=\"content-link\" target=\"_blank\">À Mayenne. Et si vous vous preniez pour un archéologue, ce week-end ?</a>. <i>Ouest-France</i>, 2018"	
+			},
+			{
+				"article": "Guérin, J.L. <a href=\"https:\\/\\/www.ouest-france.fr\/pays-de-la-loire\/mayenne-53100\/realite-virtuelle-et-3d-pour-mieux-comprendre-le-chateau-de-mayenne-5828509\" class=\"content-link\" target=\"_blank\">Réalité virtuelle et 3D pour mieux comprendre le château de Mayenne ?</a>. <i>Ouest-France</i>, 2018"	
+			},
+			{
+				"article": "Boutavent, D. <a href=\"https:\\/\\/www.boutavent.com\/recherches-archéologiques\" class=\"content-link\" target=\"_blank\">CHÂTEAU DE BOUTAVENT - site archéologique</a>. <i>www.boutavent.com</i>, 2017",
+				"coord_geo": "48.07487284372344, -2.0511391376765142",
+				"dates": "1050, 1373"
+			},
+			{
+				"article": "Bardel, V. <a href=\"https:\\/\\/www.musee-abbaye-landevennec.fr/site-musée-jardin/site-musée\" class=\"content-link\" target=\"_blank\">Ancienne abbaye Landévennec - Site & musée</a>. <i>www.musee-abbaye-landevennec.fr</i>, 2017",
+				"coord_geo": "48.290672937574556, -4.266391438362487",
+				"dates": "450, 1050"
+			},
+			{
+				"article": "Pasquet, M. <a href=\"https:\\/\\/matthiaspasquet.com\/filter\/projet\/369-Milliards-de-Points-2017\" class=\"content-link\" target=\"_blank\">369 Milliards de Points, 2017</a>. <i>matthiaspasquet.com</i>, 2017"	
+			},
+			{
+				"article": "Laporte, L., Cousseau, F., Ramírez, B., de Balbín Behrmann, R., & Gouézin, P. <a href=\"https:\\/\\/www.persee.fr\/doc\/bspf_0249-7638_2017_num_114_1_14752\" class=\"content-link\" target=\"_blank\">Le douzième dolmen de Barnenez: destructions et reconstructions au sein d'une nécropole mégalithique</a>. <i>Bulletin de la Société préhistorique française</i>, 93-114, 2017",
+				"coord_geo": "48.66760156792934, -3.8583524230710378",
+				"dates": "-5010, -3895"
+			},
+			{
+				"article": "Karila-Cohen, K. <a href=\"https:\\/\\/www.cairn.info\/revue-historique-2016-4-page-869.htm\" class=\"content-link\" target=\"_blank\">Prosopographia Attica 2.0. Base de données et raisonnement prosopographique</a>. <i>Revue historique, 680</i>(4), 869-904, 2016",
+				"coord_geo": "37.98441939432753, 23.726449599985287",
+				"dates": "-323, -30"
+			},
+			{
+				"article": "Lenfant, P.E. <a href=\"https:\\/\\/www.archeologia.be\/actualite2016021.html\" class=\"content-link\" target=\"_blank\">Le château de Suscinio : rencontre avec Karine Vincent, archéologue médiéviste et responsable scientifique du site</a>. <i>Archeologia.be</i>, 2016",
+				"coord_geo": "47.51281362105432, -2.729535011170049",
+				"dates": "1250, 1450"
+			},
+			{
+				"article": "Martineau, J. Fortifier le château des ducs de Bretagne au xve siècle. In: <i><a href=\"https:\\/\\/www.cairn.info\/revue-annales-de-bretagne-et-des-pays-de-l-ouest-2018-4-page-176.htm\" class=\"content-link\" target=\"_blank\">Le château des ducs de Bretagne: entre grandeur et renouveau: huit siècles d’histoire</a></i>, pages 245-281, Presses Universitaires de Rennes, 2016",
+				"coord_geo": "47.21631714454032, -1.5487630290741892",
+				"dates": "1250, 1750"
+			},
+			{
+				"article": "Cousseau, F. Megalithic constructional techniques in north-west France: cairn III at Prissé-la-Charrière. In: <i><a href=\"https:\\/\\/www.torrossa.com\/en\/resources\/an\/4914613#page=52\" class=\"content-link\" target=\"_blank\">The Megalithic Architectures of Europe</a></i>, pages 39-48, Oxford, Oxbow Books, 2015",
+				"coord_geo": "46.149088269892694, -0.5310428242880046",
+				"dates": "-4450, -3900"
+			},
+			{
+				"article": "Lebreton, S. <i><a href=\"https:\\/\\/orbi.uliege.be\/handle\/2268\/185717\" class=\"content-link\" target=\"_blank\">La Banque de Données des Epiclèses Grecques (BDEG) dans le cadre des Humanités numériques : questions théoriques et méthodologiques</a>.</i> In: Digital Humanities and Antiquity / Humanités Numériques et Antiquité (DHANT), Grenoble, France, 2015",
+				"coord_geo": "37.98441939432753, 23.726449599985287",
+				"dates": "-800, 600"
+			},
+			{
+				"article": "Laroze, E. <a href=\"https:\\/\\/www.orient-mediterranee.com\/program\/karnak-le-temple-dopet\" class=\"content-link\" target=\"_blank\">Karnak : le temple d’Opet - restitution</a>. <i>Orient & Méditerranée UMR 8167</i>, 2014",
+				"coord_geo": "25.7166626682257, 32.655415054604866",
+				"dates": "-144, -116"
+			},
+			{
+				"article": "Beauvallet, L. <a href=\"https:\\/\\/www.ouest-france.fr\/pays-de-la-loire\/angers-49000\/le-chateau-dangers-revit-son-passe-en-3-d-1984421\" class=\"content-link\" target=\"_blank\">Le château d'Angers revit son passé en 3 D</a>. <i>Ouest-France</i>, 2014",
+				"coord_geo": "47.46936137817054, -0.5589107493822825",
+				"dates": "1201, 1299"
+			},
+			{
+				"article": "<b>Barreau, J.B.</b> <a href=\"https:\\/\\/www.espace-sciences.org\/sciences-ouest\/319\/actualite\/le-patrimoine-archeologique-a-son-conservatoire-numerique\" class=\"content-link\" target=\"_blank\">Le patrimoine archéologique a son conservatoire... numérique !</a>. <i>Sciences Ouest</i>, 2014",
+				"coord_geo": "47.46936137817054, -0.5589107493822825",
+				"dates": "1201, 1299"
+			},
+			{
+				"article": "Inconnu, A. <a href=\"https:\\/\\/www.letelegramme.fr\/finistere\/penmarch-29760\/spanpenmarchspan-coup-de-jeune-sur-le-musee-1805388.php\" class=\"content-link\" target=\"_blank\">Penmarc'h. Coup de jeune sur le musée</a>. <i>Le Télégramme</i>, 2013",
+				"coord_geo": "47.82608585925982, -4.363475863663685",
+				"dates": "1923, 1928"
+			},
+			{
+				"article": "Moos, F. <i>Plasticité fonctionnelle cérébrale et impact de la transmission volumique peptidique. Des concepts neuroendocriniens.</i> 36ème colloque de la société de neuroendocrinologie. Château de Valrose, Nice, 2009"	
+			}
+			]
+		}
+	},
+	"Teaching": {
+		"nom_en": "Teaching Experience",
+		"nom_fr": "Expériences en enseignement",
+		"categories": [{
+			"nom_en": "3D productions and Virtual Reality",
+			"nom_fr": "Productions 3D et réalité virtuelle",
+			"cours": [{
+				"periode": "12/2017, 12/2020",
+				"statut_en": "Visiting lecturer",
+				"statut_fr": "Conférencier invité",
+				"school_en": "University of Paris 1 Panthéon-Sorbonne",
+				"school_fr": "Université Paris 1 Panthéon Sorbonne",
+				"coord_geo": "48.842499876895154, 2.3360498353517842",
+				"school_url": "https://www.pantheonsorbonne.fr",
+				"intitule_en": "Master’s degree in Heritage and Museums/Valorisation, Mediation of Archaeological Heritage",
+				"intitule_fr": "Master Patrimoine et Musées/Valorisation, Médiation du Patrimoine Archéologique",
+				"intitule_url": "https://formations.pantheonsorbonne.fr/fr/catalogue-des-formations/master-M/master-patrimoine-et-musees-KBUWRKR6/master-parcours-valorisation-et-mediation-du-patrimoine-archeologique-finalite-professionnelle-KBUWW6GX.html",
+				"desc_en": "Lecture about 3D productions, virtual reality immersion and interactions for the archaeologist",
+				"desc_fr": "Cours sur les productions 3D, l'immersion en réalité virtuelle et les interactions pour l'archéologue",
+				"nbre_heures": "4",
+				"images": [{
+						"img": "sorbonne.png",
+						"url": "https://www.pantheonsorbonne.fr"
+					}
+				]
+			},
+			{
+				"periode": "09/2019",
+				"statut_en": "Teaching Assistant",
+				"statut_fr": "Chargé de TD",
+				"school_en": "IFFDEC - Design and Image Institute of Rennes",
+				"school_fr": "IFFDEC - Institut de design & d'Image",
+				"coord_geo": "48.1094501755043, -1.6485911155229098",
+				"school_url": "https://iffdec.com",
+				"intitule_en": "Bachelor in Illustration and Game Design",
+				"intitule_fr": "Bachelor en illustration et Game Design",
+				"intitule_url": "https://iffdec.com/formations/43-design-graphique",
+				"desc_en": "Introduction to 3ds Max",
+				"desc_fr": "Introduction à 3ds Max",
+				"nbre_heures": "2",
+				"images": [{
+						"img": "iffdec.png",
+						"url": "https://iffdec.com"
+					}
+				]
+			},
+			{
+				"periode": "07/2018 - 07/2022",
+				"statut_en": "Teaching Assistant",
+				"statut_fr": "Chargé de TD",
+				"school_en": "Department of Literature, Languages and Humanities, Université du Mans",
+				"school_fr": "UFR de lettres, langues et sciences humaines, Le Mans université",
+				"coord_geo": "48.017285759515126, 0.1569221932513987",
+				"school_url": "https://lettres.univ-lemans.fr/fr/index.html",
+				"intitule_en": "Master of Arts in Territory Management and Local Development / History, Civilization and Heritage",
+				"intitule_fr": "Master en gestion du territoire et développement local / Histoire, civilisation et patrimoine",
+				"intitule_url": "https://www.univ-lemans.fr/fr/formation/catalogue-des-formations/master-lmd-MLMD/sciences-humaines-et-sociales-0001/master-histoire-civilisations-patrimoine-IXRK4QA6.html",
+				"desc_en": "Digital tools and valuation",
+				"desc_fr": "Outils numériques et valorisation",
+				"nbre_heures": "48",
+				"images": [{
+						"img": "le-mans.png",
+						"url": "https://lettres.univ-lemans.fr/fr/index.html"
+					}
+				]
+			},
+			{
+				"periode": "09/2017 - 06/2019",
+				"statut_en": "Teaching Assistant",
+				"statut_fr": "Chargé de TD",
+				"school_en": "Institut National des Sciences Appliquées (INSA) de Rennes",
+				"school_fr": "Institut National des Sciences Appliquées (INSA) de Rennes",
+				"coord_geo": "48.12094942323524, -1.6356741444261476",
+				"school_url": "https://www.insa-rennes.fr/index.html",
+				"intitule_en": "3rd year of the computer science student-engineers",
+				"intitule_fr": "3ème année informatique",
+				"intitule_url": "https://www.insa-rennes.fr/info.html",
+				"desc_en": "Computer case studies projects",
+				"desc_fr": "Projets d'études de cas informatiques",
+				"nbre_heures": "20",
+				"images": [{
+						"img": "insa.jpg",
+						"url": "https://www.insa-rennes.fr/index.html"
+					}
+				]
+			},
+			{
+				"periode": "01/2014",
+				"statut_en": "Visiting lecturer",
+				"statut_fr": "Conférencier invité",
+				"school_en": "3D SUP’INFOGRAPH, École Supérieure de Réalisation Audiovisuelle",
+				"school_fr": "3D SUP’INFOGRAPH, École Supérieure de Réalisation Audiovisuelle",
+				"coord_geo": "48.128866719055125, -1.6420913453118438",
+				"school_url": "https://esra.edu/campus/rennes/",
+				"intitule_en": "BSC degree in 3D animation",
+				"intitule_fr": "Licence en animation 3D",
+				"intitule_url": "https://esra.edu/formations/animation-3d/esra-animation/",
+				"desc_en": "Lecture about 3D productions for the archaeologist",
+				"desc_fr": "Conférence sur les productions 3D pour l'archéologue",
+				"nbre_heures": "2",
+				"images": [{
+						"img": "ESRA_Bretagne.jpg",
+						"url": "https://esra.edu/campus/rennes/"
+					}
+				]
+			},
+			{
+				"periode": "01/2013 - 06/2015, 01/2023 - 06/2023",
+				"statut_en": "Teaching Assistant",
+				"statut_fr": "Chargé de TD",
+				"school_en": "Department of Art History and Archeology, Université de Rennes 2",
+				"school_fr": "Département d'histoire de l'art et d'archéologie, Université de Rennes 2",
+				"coord_geo": "48.11863342699911, -1.7025163520388602",
+				"school_url": "https://www.univ-rennes2.fr/structure/departement-dhistoire-lart-archeologie",
+				"intitule_en": "Master’s degree in Archeology and History",
+				"intitule_fr": "Master en archéologie et en histoire",
+				"intitule_url": "https://asar2.hypotheses.org/",
+				"desc_en": "Computer-aided design (Inkscape / Blender)",
+				"desc_fr": "Conception assistée par ordinateur (Inkscape / Blender)",
+				"nbre_heures": "32",
+				"images": [{
+						"img": "univ-rennes2.png",
+						"url": "https://www.univ-rennes2.fr/structure/departement-dhistoire-lart-archeologie"
+					}
+				]
+			}
+			]
+		},
+		{
+			"nom_en": "IT development for Archaeology and History",
+			"nom_fr": "Développement informatique pour l'archéologie et l'histoire",
+			"cours": [{
+				"periode": "09/2017 - 06/2020",
+				"statut_en": "Teaching Assistant",
+				"statut_fr": "Chargé de TD",
+				"school_en": "Department of Sociology and Language Studies, Université de Rennes 2",
+				"school_fr": "Département de sociologie et d'études linguistiques, Université de Rennes 2",
+				"school_url": "https://www.univ-rennes2.fr/universite/formation-recherche#toc-ufr-sciences-sociales",
+				"intitule_en": "Master’s degree in Digital Humanities",
+				"intitule_fr": "Master mention Humanités numériques",
+				"intitule_url": "https://formations.univ-rennes2.fr/fr/formations/master-37/master-mention-humanites-numeriques-JF9HM9NB.html",
+				"desc_en": "Databases, statistical and graphical documentation processing",
+				"desc_fr": "Bases de données, traitement de la documentation statistique et graphique",
+				"nbre_heures": "48",
+				"images": [{
+						"img": "univ-rennes2.png",
+						"url": "https://www.univ-rennes2.fr/universite/formation-recherche#toc-ufr-sciences-sociales"
+					}
+				]
+			},
+			{
+				"periode": "07/2018 - 12/2018",
+				"statut_en": "Teaching Assistant",
+				"statut_fr": "Chargé de TD",
+				"school_en": "Department of Science and Technology, Université de la Nouvelle-Calédonie",
+				"school_fr": "Département des sciences et technologies, Université de la Nouvelle-Calédonie",
+				"coord_geo": "-22.26286093453344, 166.40327470040543",
+				"school_url": "https://unc.nc/formation/sciences-et-techniques/",
+				"intitule_en": "Bachelor's degree in Computer Science",
+				"intitule_fr": "Licence en informatique",
+				"intitule_url": "https://unc.nc/formations/licence-informatique/",
+				"desc_en": "Database administration",
+				"desc_fr": "Administration des bases de données",
+				"nbre_heures": "22",
+				"images": [{
+						"img": "UNC.png",
+						"url": "https://unc.nc/formation/sciences-et-techniques/"
+					}
+				]
+			},
+			{
+				"periode": "09/2012 - 12/2012",
+				"statut_en": "Teaching Assistant",
+				"statut_fr": "Chargé de TD",
+				"school_en": "Department of Art History and Archeology, Université de Rennes 2",
+				"school_fr": "Département d'histoire de l'art et d'archéologie, Université de Rennes 2",
+				"school_url": "https://www.univ-rennes2.fr/structure/departement-dhistoire-lart-archeologie",
+				"intitule_en": "Master’s degree in Archeology and History",
+				"intitule_fr": "Master en archéologie et en histoire",
+				"intitule_url": "https://asar2.hypotheses.org/",
+				"desc_en": "Computing and statistics",
+				"desc_fr": "Informatique et statistiques",
+				"nbre_heures": "8",
+				"images": [{
+						"img": "univ-rennes2.png",
+						"url": "https://www.univ-rennes2.fr/structure/departement-dhistoire-lart-archeologie"
+					}
+				]
+			}]
+		}
+		]
+	},
+	"Students": {
+		"nom_en": "Student supervision",
+		"nom_fr": "Encadrement d'étudiant(e)s",
+		"categories": [
+		{
+			"nom_en": "PhD in Archaeology",
+			"nom_fr": "Doctorat en archéologie",
+			"student": [
+			{
+				"periode": "2020 - ...",
+				"nom": "MAGUET Énora",
+				"diplome_en": "CIFRE PhD in Archaeosciences, with the preventive archaeology company ”Éveha” and Université de Rennes 1",
+				"diplome_fr": "Thèse CIFRE en archéosciences, avec la société d'archéologie préventive Éveha et l'Université de Rennes 1",
+				"coord_geo": "48.1190939424805, -1.6413503028337708",
+				"diplome_url": "https://www.theses.fr/s244838",
+				"titre": "Restituer le contexte environnemental des sites archéologiques grâce à la modélisation 3D des paysages : une nouvelle approche de l’archéobotanique",
+				"direction": [
+				{
+					"nom": "DAIRE Marie-Yvane"
+				}
+				],
+				"supervision": [
+				{
+					"nom": "LEROYER Chantal"
+				},
+				{
+					"nom": "BARREAU Jean-Baptiste"
+				},
+				{
+					"nom": "LAFORGE Marine"
+				}
+				],
+				"images": [{
+						"img": "u-rennes.jpg",
+						"url": "https://www.theses.fr/s244838"
+					}
+				]
+			},
+			{
+				"periode": "2018 - ...",
+				"nom": "DAGMAN Soraya",
+				"diplome_en": "PhD in Arts at Université de Rennes 2",
+				"diplome_fr": "Doctorat en Arts à l'Université de Rennes 2",
+				"coord_geo": "48.11861771075315, -1.7025740403631413",
+				"diplome_url": "https://www.theses.fr/s217133",
+				"titre": "La restitution, par le dessin et la modélisation en trois dimensions, de la cité d'Amathonte de Chypre : la naissance et l'évolution d'une cité chypriote à l'époque dite des palais (VIIIème - IVème av. J.-C.)",
+				"direction": [
+				{
+					"nom": "MARANGOU-LERAT Antigone"
+				}
+				],
+				"supervision": [
+				{
+					"nom": "BARREAU Jean-Baptiste"
+				}
+				],
+				"images": [{
+						"img": "univ-rennes2.png",
+						"url": "https://www.theses.fr/s217133"
+					}
+				]
+			}]
+		},
+		{
+			"nom_en": "Master's degree in Computer Science",
+			"nom_fr": "Master 1 en informatique",
+			"student": [{
+				"periode": "2020",
+				"nom": "YOUSEFIAN Neda",
+				"diplome_en": "Master in Computer Science, complementary skills in digital services at ISTIC Université Rennes 1",
+				"diplome_fr": "Master en informatique, compétences complémentaires en services numériques à l'ISTIC Université Rennes 1",
+				"coord_geo": "48.11576847573329, -1.6386223675972615",
+				"diplome_url": "https://formations.univ-rennes.fr/annee/master-1-competences-complementaires-dans-les-services-du-numerique",
+				"titre": "Développement d’une interface web interactive pour la gestion et l’analyse d’une base de données archéologiques",
+				"direction": [
+				{
+					"nom": "BARREAU Jean-Baptiste"
+				}
+				],
+				"images": [{
+						"img": "istic.png",
+						"url": "https://formations.univ-rennes.fr/annee/master-1-competences-complementaires-dans-les-services-du-numerique"
+					}
+				]
+			},
+			{
+				"periode": "2019",
+				"nom": "MONTI Paul",
+				"diplome_en": "Master in Security, System and Networks at ISTIC Université de Rennes 1",
+				"diplome_fr": "Master en sécurité, système et réseaux à l'ISTIC Université de Rennes 1",
+				"diplome_url": "https://istic.univ-rennes.fr/master-informatique-parcours-cybersecurite",
+				"titre": "Création d’une interface web à une base de données archéologiques dans le cadre de la campagne INRAP Archéologie du Handicap",
+				"direction": [
+				{
+					"nom": "BARREAU Jean-Baptiste"
+				}
+				],
+				"images": [{
+						"img": "istic.png",
+						"url": "https://istic.univ-rennes.fr/master-informatique-parcours-cybersecurite"
+					}
+				]
+			},
+			{
+				"periode": "2018",
+				"nom": "DIALLO Haoulatou",
+				"diplome_en": "Master in Computer Science, complementary skills in digital services at ISTIC Université Rennes 1",
+				"diplome_fr": "Master en informatique, compétences complémentaires en services numériques à l'ISTIC Université Rennes 1",
+				"diplome_url": "https://formations.univ-rennes.fr/annee/master-1-competences-complementaires-dans-les-services-du-numerique",
+				"titre": "Développement d’une interface de gestion/traitements mathématiques de données archéologiques spatialisées et traitements photogrammétriques",
+				"direction": [
+				{
+					"nom": "BARREAU Jean-Baptiste"
+				}
+				],
+				"images": [{
+						"img": "istic.png",
+						"url": "https://formations.univ-rennes.fr/annee/master-1-competences-complementaires-dans-les-services-du-numerique"
+					}
+				]
+			},
+			{
+				"periode": "2018",
+				"nom": "MOUTARAJJI Mouhyi-eddine",
+				"diplome_en": "Master in Software Engineering at ISTIC Université Rennes 1",
+				"diplome_fr": "Master en génie logiciel à l'ISTIC Université Rennes 1",
+				"diplome_url": "https://istic.univ-rennes.fr/master-informatique-parcours-ingenierie-logicielle-il",
+				"titre": "Amélioration d’une application mobile et production du 3D pour l’archéologie",
+				"direction": [
+				{
+					"nom": "BARREAU Jean-Baptiste"
+				}
+				],
+				"images": [{
+						"img": "istic.png",
+						"url": "https://istic.univ-rennes.fr/master-informatique-parcours-ingenierie-logicielle-il"
+					}
+				]
+			},
+			{
+				"periode": "2018",
+				"nom": "LE Mikael",
+				"diplome_en": "Master in Software Engineering at ISTIC Université Rennes 1",
+				"diplome_fr": "Master en génie logiciel à l'ISTIC Université Rennes 1",
+				"diplome_url": "https://istic.univ-rennes.fr/master-informatique-parcours-ingenierie-logicielle-il",
+				"titre": "Production de modèles 3D",
+				"direction": [
+				{
+					"nom": "BARREAU Jean-Baptiste"
+				}
+				],
+				"images": [{
+						"img": "istic.png",
+						"url": "https://istic.univ-rennes.fr/master-informatique-parcours-ingenierie-logicielle-il"
+					}
+				]
+			},
+			{
+				"periode": "2013",
+				"nom": "DESILES Paul",
+				"diplome_en": "Fourth year of engineer school at INSA Rennes",
+				"diplome_fr": "Quatrième année d'école d'ingénieur à l'INSA de Rennes",
+				"coord_geo": "48.120938117085025, -1.635652275535724",
+				"diplome_url": "https://www.insa-rennes.fr/info.html",
+				"titre": "Réalité Virtuelle pour l'archéologie",
+				"direction": [
+				{
+					"nom": "GOURANTON Valérie"
+				}
+				],
+				"supervision": [
+				{
+					"nom": "BARREAU Jean-Baptiste"
+				}
+				],
+				"images": [{
+						"img": "insa.jpg",
+						"url": "https://www.insa-rennes.fr/info.html"
+					}
+				]
+			}]
+		},
+		{
+			"nom_en": "BSC degree in Computer Science",
+			"nom_fr": "Licence 3 en informatique",
+			"student": [
+			{
+				"periode": "2021",
+				"nom": "CHAPUIS Emma",
+				"diplome_en": "BSC degree in Computer Science at ISTIC Université de Rennes 1",
+				"diplome_fr": "Licence en informatique à l'ISTIC Université de Rennes 1",
+				"diplome_url": "https://istic.univ-rennes.fr/licence-informatique",
+				"titre": "Développement du projet BADASS",
+				"direction": [
+				{
+					"nom": "BARREAU Jean-Baptiste"
+				}
+				],
+				"images": [{
+						"img": "istic.png",
+						"url": "https://istic.univ-rennes.fr/licence-informatique"
+					}
+				]
+			},
+			{
+				"periode": "2018 - 2019",
+				"nom": "RISY Mathieu, BALIX Nathan, DURVILLE Léandre, BOUIN Marie",
+				"diplome_en": "Third year of engineer school at INSA Rennes",
+				"diplome_fr": "Troisième année d'école d'ingénieur à l'INSA de Rennes",
+				"diplome_url": "https://www.insa-rennes.fr/info.html",
+				"titre": "Relier l'existant et l'hypothétique d'un site archéologique en réalité virtuelle",
+				"direction": [
+				{
+					"nom": "BARREAU Jean-Baptiste"
+				},
+				{
+					"nom": "GAUGNE Ronan"
+				}
+				],
+				"images": [{
+						"img": "insa.jpg",
+						"url": "https://www.insa-rennes.fr/info.html"
+					}
+				]
+			},
+			{
+				"periode": "2017 - 2018",
+				"nom": "RIALAN Augustin, DUBREMETZ François, TALON Rowann, RELION Lisa",
+				"diplome_en": "Third year of engineer school at INSA Rennes",
+				"diplome_fr": "Troisième année d'école d'ingénieur à l'INSA de Rennes",
+				"diplome_url": "https://www.insa-rennes.fr/info.html",
+				"titre": "Exploration en réalité virtuelle d'un nuage de points",
+				"direction": [
+				{
+					"nom": "GAUGNE Ronan"
+				},
+				{
+					"nom": "BARREAU Jean-Baptiste"
+				},
+				{
+					"nom": "PETIT Quentin"
+				}
+				],
+				"images": [{
+						"img": "insa.jpg",
+						"url": "https://www.insa-rennes.fr/info.html"
+					}
+				]
+			}]
+		},
+		{
+			"nom_en": "BTEC Higher National Diploma",
+			"nom_fr": "BUT en informatique",
+			"student": [
+			{
+				"periode": "2022",
+				"nom": "BAIET Alex",
+				"diplome_en": "HND in computer science at Université Gustave Eiffel",
+				"diplome_fr": "BUT en informatique à l'Université Gustave Eiffel",
+				"coord_geo": "48.83729502063412, 2.584887982192252",
+				"diplome_url": "https://formations.univ-gustave-eiffel.fr/index.php?id=1941&tx_agof_brochure%5Bbrochure%5D=988&tx_agof_brochure%5Baction%5D=show&tx_agof_brochure%5Bcontroller%5D=Brochure&cHash=b6ce04cf297d3932789fd63b82849968",
+				"titre": "Optimisation de logiciels de gestion de données",
+				"direction": [
+				{
+					"nom": "LE FORESTIER Cyrille"
+				},
+				{
+					"nom": "BARREAU Jean-Baptiste"
+				}
+				],
+				"images": [{
+						"img": "gustave_eiffel.png",
+						"url": "https://formations.univ-gustave-eiffel.fr/index.php?id=1941&tx_agof_brochure%5Bbrochure%5D=988&tx_agof_brochure%5Baction%5D=show&tx_agof_brochure%5Bcontroller%5D=Brochure&cHash=b6ce04cf297d3932789fd63b82849968"
+					}
+				]
+			},
+			{
+				"periode": "2021",
+				"nom": "HUMEAU Alexandre",
+				"diplome_en": "HND in Networks and Telecommunications at University Institute of Technology of Saint-Malo",
+				"diplome_fr": "BUT Réseaux et Télécommunications à l'Institut Universitaire de Technologie de Saint-Malo",
+				"coord_geo": "48.65756164706545, -1.9689389754936686",
+				"diplome_url": "https://iut-stmalo.univ-rennes.fr/reseaux-telecommunications",
+				"titre": "Développement en Python d'une interface de saisie et gestion de données",
+				"direction": [
+				{
+					"nom": "BARREAU Jean-Baptiste"
+				}
+				],
+				"images": [{
+						"img": "IUT_Saint-Malo.png",
+						"url": "https://iut-stmalo.univ-rennes.fr/reseaux-telecommunications"
+					}
+				]
+			},
+			{
+				"periode": "2021",
+				"nom": "LOUIN Virgile",
+				"diplome_en": "HND in Networks and Telecommunications at University Institute of Technology of Saint-Malo",
+				"diplome_fr": "BUT Réseaux et Télécommunications à l'Institut Universitaire de Technologie de Saint-Malo",
+				"diplome_url": "https://iut-stmalo.univ-rennes.fr/reseaux-telecommunications",
+				"titre": "Développement PHP/MySQL/JavaScript",
+				"direction": [
+				{
+					"nom": "BARREAU Jean-Baptiste"
+				}
+				],
+				"images": [{
+						"img": "IUT_Saint-Malo.png",
+						"url": "https://iut-stmalo.univ-rennes.fr/reseaux-telecommunications"
+					}
+				]
+			},
+			{
+				"periode": "2019",
+				"nom": "LÉCRIVAIN Ugo",
+				"diplome_en": "HND in Networks and Telecommunications at University Institute of Technology of Saint-Malo",
+				"diplome_fr": "BUT Réseaux et Télécommunications à l'Institut Universitaire de Technologie de Saint-Malo",
+				"diplome_url": "https://iut-stmalo.univ-rennes.fr/reseaux-telecommunications",
+				"titre": "Développement d’une application de gestion de données archéologiques",
+				"direction": [
+				{
+					"nom": "BARREAU Jean-Baptiste"
+				}
+				],
+				"images": [{
+						"img": "IUT_Saint-Malo.png",
+						"url": "https://iut-stmalo.univ-rennes.fr/reseaux-telecommunications"
+					}
+				]
+			},
+			{
+				"periode": "2013",
+				"nom": "LEMOINE Tanguy",
+				"diplome_en": "HND in Software Engineering at University Institute of Technology of Lannion",
+				"diplome_fr": "BUT Génie logiciel à l'Institut Universitaire de Technologie de Lannion",
+				"coord_geo": "48.7584190638516, -3.4517798178139785",
+				"diplome_url": "https://iut-lannion.univ-rennes.fr/informatique",
+				"titre": "Développement d'une application web pour le référencement d'éléments lithosphériques",
+				"direction": [
+				{
+					"nom": "BARREAU Jean-Baptiste"
+				}
+				],
+				"images": [{
+						"img": "IUT_lannion.png",
+						"url": "https://iut-lannion.univ-rennes.fr/informatique"
+					}
+				]
+			},
+			{
+				"periode": "2012",
+				"nom": "SACHET Mathieu",
+				"diplome_en": "HND in Software Engineering at University Institute of Technology of Lannion",
+				"diplome_fr": "BUT Génie logiciel à l'Institut Universitaire de Technologie de Lannion",
+				"diplome_url": "https://iut-lannion.univ-rennes.fr/informatique",
+				"titre": "Développement d'une application web optimisée pour Smartphone permettant la saisie et transmission de données multimédia géo-référencées concernant des sites archéologiques menacés",
+				"direction": [
+				{
+					"nom": "BARREAU Jean-Baptiste"
+				},
+				{
+					"nom": "DAIRE Marie-Yvane"
+				}
+				],
+				"images": [{
+						"img": "IUT_lannion.png",
+						"url": "https://iut-lannion.univ-rennes.fr/informatique"
+					}
+				]
+			}]
+		},
+		{
+			"nom_en": "MSc in Archaeology/Digital Humanities",
+			"nom_fr": "Master 2 en archéologie/humanités numériques",
+			"student": [
+			{
+				"periode": "2023",
+				"nom": "AIRES DA CRUZ Tiffany",
+				"diplome_en": "Master in Archaeology of Prehistory and Protohistory (research) at Université Paris 1 Panthéon-Sorbonne",
+				"diplome_fr": "Master 2 Archéologie de la Préhistoire et de la Protohistoire (finalité Recherche) à l'Université Paris 1 Panthéon-Sorbonne",
+				"coord_geo": "48.842499876895154, 2.3360498353517842",
+				"diplome_url": "https://formations.pantheonsorbonne.fr/fr/catalogue-des-formations/master-M/master-archeologie-sciences-pour-l-archeologie-KBUVKDM5/master-parcours-archeologie-de-la-prehistoire-et-de-la-protohistoire-finalite-recherche-KBUVKE1F.html",
+				"titre": "titre à venir",
+				"direction": [
+				{
+					"nom": "GILIGNY François"
+				}
+				],
+				"supervision": [
+				{
+					"nom": "BARREAU Jean-Baptiste"
+				}
+				],
+				"images": [{
+						"img": "sorbonne.png",
+						"url": "https://formations.pantheonsorbonne.fr/fr/catalogue-des-formations/master-M/master-archeologie-sciences-pour-l-archeologie-KBUVKDM5/master-parcours-archeologie-de-la-prehistoire-et-de-la-protohistoire-finalite-recherche-KBUVKE1F.html"
+					}
+				]
+			},
+			{
+				"periode": "2020",
+				"nom": "RIQUET Isabelle",
+				"diplome_en": "Master in Digital Humanities at Université Rennes 2",
+				"diplome_fr": "Master 2 en Humanités Numériques à l'Université Rennes 2",
+				"diplome_url": "https://formations.univ-rennes2.fr/fr/formations/master-37/master-mention-humanites-numeriques-JF9HM9NB.html",
+				"titre": "The Sammelbänd15-16 project: Une base de données au service de la valorisation des recueils factices de la Renaissance",
+				"direction": [
+				{
+					"nom": "KARILA-COHEN Karine"
+				},
+				{
+					"nom": "BARREAU Jean-Baptiste"
+				}
+				],
+				"images": [{
+						"img": "univ-rennes2.png",
+						"url": "https://formations.univ-rennes2.fr/fr/formations/master-37/master-mention-humanites-numeriques-JF9HM9NB.html"
+					}
+				]
+			},
+			{
+				"periode": "2019",
+				"nom": "SIX Yvon",
+				"diplome_en": "Master in valorisation and mediation for archaeological heritage at Université Paris 1 Panthéon-Sorbonne",
+				"diplome_fr": "Master 2 en valorisation et médiation du patrimoine archéologique à l'Université Paris 1 Panthéon-Sorbonne",
+				"diplome_url": "https://formations.pantheonsorbonne.fr/fr/catalogue-des-formations/master-M/master-patrimoine-et-musees-KBUWRKR6/master-parcours-valorisation-et-mediation-du-patrimoine-archeologique-finalite-professionnelle-KBUWW6GX.html",
+				"titre": "D’un sanctuaire gaulois aux forges modernes. Parcours archéologique dans l'ouest de la France, direction",
+				"direction": [
+				{
+					"nom": "GILIGNY François"
+				},
+				{
+					"nom": "LAUT-TACCOEN Laure"
+				}
+				],
+				"supervision": [
+				{
+					"nom": "BARREAU Jean-Baptiste"
+				},
+				{
+					"nom": "GUERIN Frédéric"
+				},
+				{
+					"nom": "BELLANGER Patrick"
+				},
+				{
+					"nom": "LE GOFF Elven"
+				},
+				{
+					"nom": "ROBIN Karine"
+				}
+				],
+				"images": [{
+						"img": "sorbonne.png",
+						"url": "https://formations.pantheonsorbonne.fr/fr/catalogue-des-formations/master-M/master-patrimoine-et-musees-KBUWRKR6/master-parcours-valorisation-et-mediation-du-patrimoine-archeologique-finalite-professionnelle-KBUWW6GX.html"
+					}
+				]
+			},
+			{
+				"periode": "2019",
+				"nom": "CHAMBERS Emily",
+				"diplome_en": "Master in valorisation and mediation for archaeological heritage at Université Paris 1 Panthéon-Sorbonne",
+				"diplome_fr": "Master 2 en valorisation et médiation du patrimoine archéologique à l'Université Paris 1 Panthéon-Sorbonne",
+				"diplome_url": "https://formations.pantheonsorbonne.fr/fr/catalogue-des-formations/master-M/master-patrimoine-et-musees-KBUWRKR6/master-parcours-valorisation-et-mediation-du-patrimoine-archeologique-finalite-professionnelle-KBUWW6GX.html",
+				"titre": "Les outils de médiation numérique pour les collections océaniennes des musées français : quelle adaptation ?",
+				"direction": [
+				{
+					"nom": "GILIGNY François"
+				},
+				{
+					"nom": "DESACHY Bruno"
+				}
+				],
+				"supervision": [
+				{
+					"nom": "LAPORAL David"
+				},
+				{
+					"nom": "SAGORY Thomas"
+				},
+				{
+					"nom": "BARREAU Jean-Baptiste"
+				},
+				{
+					"nom": "DE MIRANDA Isabelle"
+				}
+				],
+				"images": [{
+						"img": "sorbonne.png",
+						"url": "https://formations.pantheonsorbonne.fr/fr/catalogue-des-formations/master-M/master-patrimoine-et-musees-KBUWRKR6/master-parcours-valorisation-et-mediation-du-patrimoine-archeologique-finalite-professionnelle-KBUWW6GX.html"
+					}
+				]
+			},
+			{
+				"periode": "2018",
+				"nom": "MAGUET Énora",
+				"diplome_en": "Master in Prehistory, Paleontology, Paleoenvironments at Université de Rennes 1",
+				"diplome_fr": "Master 2 en préhistoire, paléontologie, paléoenvironnements à l'Université de Rennes 1",
+				"diplome_url": "https://formations.univ-rennes.fr/master-mention-bio-geosciences-parcours-paleontologie-paleo-environnement-et-patrimoine-ppp?studentstatus=112",
+				"titre": "ABCDATA, une base de données palynologiques et anthracologiques en ligne. Pour une nouvelle approche de l’histoire de la végétation",
+				"direction": [
+				{
+					"nom": "LEROYER Chantal"
+				},
+				{
+					"nom": "BARREAU Jean-Baptiste"
+				}
+				],
+				"images": [{
+						"img": "u-rennes.jpg",
+						"url": "https://formations.univ-rennes.fr/master-mention-bio-geosciences-parcours-paleontologie-paleo-environnement-et-patrimoine-ppp?studentstatus=112"
+					}
+				]
+			},
+			{
+				"periode": "2014",
+				"nom": "MAGUET Énora",
+				"diplome_en": "Master in Archeology and History at Université de Rennes 2",
+				"diplome_fr": "Master 2 en archéologie et histoire à l'Université de Rennes 2",
+				"diplome_url": "https://asar2.hypotheses.org/",
+				"titre": "Mise en ligne d’une base de données paléoenvironnementales : développement et applications",
+				"direction": [
+				{
+					"nom": "LEROYER Chantal"
+				},
+				{
+					"nom": "BARREAU Jean-Baptiste"
+				}
+				],
+				"images": [{
+						"img": "univ-rennes2.png",
+						"url": "https://asar2.hypotheses.org/"
+					}
+				]
+			},
+			{
+				"periode": "2013",
+				"nom": "BRUNIAUX Guillaume",
+				"diplome_en": "Master in Prehistory, Paleontology, Paleoenvironments at Université de Rennes 1",
+				"diplome_fr": "Master 2 en préhistoire, paléontologie, paléoenvironnements à l'Université de Rennes 1",
+				"diplome_url": "https://formations.univ-rennes.fr/master-mention-bio-geosciences-parcours-paleontologie-paleo-environnement-et-patrimoine-ppp?studentstatus=112",
+				"titre": "Photogrammétrie sur céramiques, calculs de volumes et reconstructions en trois dimensions, direction",
+				"direction": [
+				{
+					"nom": "BARREAU Jean-Baptiste"
+				}
+				],
+				"images": [{
+						"img": "u-rennes.jpg",
+						"url": "https://formations.univ-rennes.fr/master-mention-bio-geosciences-parcours-paleontologie-paleo-environnement-et-patrimoine-ppp?studentstatus=112"
+					}
+				]
+			}]
+		},
+		{
+			"nom_en": "Master's degree in Archaeology",
+			"nom_fr": "Master 1 en archéologie",
+			"student": [
+			{
+				"periode": "2020",
+				"nom": "RAGHOUBER Indra",
+				"diplome_en": "Master in Archaeology and Sciences for Archaeology at Université de Rennes 2",
+				"diplome_fr": "Master 1 en archéologie et sciences pour l'archéologie à l'Université de Rennes 2",
+				"diplome_url": "https://asar2.hypotheses.org/",
+				"titre": "Restitution 3D autour de l’habitat antique. Le cas de la Domus du parc des Tanneurs à Rennes",
+				"direction": [
+				{
+					"nom": "POUILLE Dominique"
+				},
+				{
+					"nom": "BARREAU Jean-Baptiste"
+				}
+				],
+				"images": [{
+						"img": "univ-rennes2.png",
+						"url": "https://asar2.hypotheses.org/"
+					}
+				]
+			},
+			{
+				"periode": "2014",
+				"nom": "BILLARDEY Maxime",
+				"diplome_en": "Master in valorisation of the economic and cultural heritage at Université de Nantes",
+				"diplome_fr": "Master 1 en valorisation du patrimoine économique et culturel à l'Université de Nantes",
+				"coord_geo": "47.24515379889903, -1.5503118136344012",
+				"diplome_url": "https://www.univ-nantes.fr/etudier-se-former/orientation-parcours-metiers/enquetes-dinsertion-professionnelle-master-mention-civilisations-cultures-societes-parcours-valorisation-du-patrimoine-economique-et-culturel",
+				"titre": "Valorisation du patrimoine au CNPAO et archives municipales de Saint-Brieuc : L'établissement de projets scientifiques et culturels",
+				"direction": [
+				{
+					"nom": "BARREAU Jean-Baptiste"
+				}
+				],
+				"images": [{
+						"img": "u_nantes.png",
+						"url": "https://www.univ-nantes.fr/etudier-se-former/orientation-parcours-metiers/enquetes-dinsertion-professionnelle-master-mention-civilisations-cultures-societes-parcours-valorisation-du-patrimoine-economique-et-culturel"
+					}
+				]
+			},
+			{
+				"periode": "2013",
+				"nom": "MAGUET Énora",
+				"diplome_en": "Master in Archaeology and Sciences for Archaeology at Université de Rennes 2",
+				"diplome_fr": "Master 1 en archéologie et sciences pour l'archéologie à l'Université de Rennes 2",
+				"diplome_url": "https://asar2.hypotheses.org/",
+				"titre": "Création et exploitation d’une base de données palynologiques sur le Mésolithique et le Néolithique du Bassin parisien",
+				"direction": [
+				{
+					"nom": "LEROYER Chantal"
+				},
+				{
+					"nom": "BARREAU Jean-Baptiste"
+				}
+				],
+				"images": [{
+						"img": "univ-rennes2.png",
+						"url": "https://asar2.hypotheses.org/"
+					}
+				]
+			}]
+		}
+		]
+	},
+	"Skills": {
+		"nom_fr": "Compétences",
+		"nom_en": "Skills",
+		"skill_cat": [
+		{
+			"skill_cat_en": "Coding",
+			"skill_cat_fr": "Code",
+			"skill": [
+			{
+				"name_fr":"Python",
+				"name_en":"Python"
+			},
+			{
+				"name_fr":"PHP",
+				"name_en":"PHP"
+			},
+			{
+				"name_fr":"XML/XSL",
+				"name_en":"XML/XSL"
+			},
+			{
+				"name_fr":"LaTeX",
+				"name_en":"LaTeX"
+			},
+			{
+				"name_fr":"R",
+				"name_en":"R"
+			},
+			{
+				"name_fr":"Visual Basic",
+				"name_en":"Visual Basic"
+			},
+			{
+				"name_fr":"C/C++",
+				"name_en":"C/C++"
+			}
+			]
+		},
+		{
+			"skill_cat_en": "Databases",
+			"skill_cat_fr": "Bases de données",
+			"skill": [
+			{
+				"name_fr":"MySQL",
+				"name_en":"MySQL"
+			},
+			{
+				"name_fr":"PostgreSQL",
+				"name_en":"PostgreSQL"
+			},
+			{
+				"name_fr":"OpenOffice Base",
+				"name_en":"OpenOffice Base"
+			},
+			{
+				"name_fr":"FileMaker Pro",
+				"name_en":"FileMaker Pro"
+			}
+			]
+		},
+		{
+			"skill_cat_en": "Web Dev",
+			"skill_cat_fr": "Développement Web",
+			"skill": [
+			{
+				"name_fr":"Html",
+				"name_en":"Html"
+			},
+			{
+				"name_fr":"CSS",
+				"name_en":"CSS"
+			},
+			{
+				"name_fr":"JavaScript",
+				"name_en":"JavaScript"
+			}
+			]
+		},
+		{
+			"skill_cat_en": "3D/Graphic Design",
+			"skill_cat_fr": "Conception 3D/graphique",
+			"skill": [
+			{
+				"name_fr":"Blender",
+				"name_en":"Blender"
+			},
+			{
+				"name_fr":"3ds Max/VRay",
+				"name_en":"3ds Max/VRay"
+			},
+			{
+				"name_fr":"CloudCompare",
+				"name_en":"CloudCompare"
+			},
+			{
+				"name_fr":"Metashape",
+				"name_en":"Metashape"
+			},
+			{
+				"name_fr":"Gimp",
+				"name_en":"Gimp"
+			},
+			{
+				"name_fr":"Photoshop",
+				"name_en":"Photoshop"
+			}
+			]
+		},
+		{
+			"skill_cat_en": "Misc.",
+			"skill_cat_fr": "Divers",
+			"skill": [
+			{
+				"name_fr":"Recherche académique",
+				"name_en":"Academic research"
+			},
+			{
+				"name_fr":"Enseignement",
+				"name_en":"Teaching"
+			}
+			]
+		}
+		]
+	},
+	"Reviewing": {
+		"nom_fr": "Activités de reviewing",
+		"nom_en": "Reviewing activities",
+		"reviews": [
+		{
+			"periode": "2024",
+			"journal": "Electronics",
+			"journal_url": "https://www.mdpi.com/journal/electronics",
+			"images": [{
+					"img": "electronics.jpg",
+					"url": "https://www.mdpi.com/journal/electronics"
+				}
+			]
+		},
+		{
+			"periode": "2024",
+			"journal": "Digital Applications in Archaeology and Cultural Heritage",
+			"journal_url": "https://www.sciencedirect.com/journal/digital-applications-in-archaeology-and-cultural-heritage",
+			"images": [{
+					"img": "DAACH.jpg",
+					"url": "https://www.sciencedirect.com/journal/digital-applications-in-archaeology-and-cultural-heritage"
+				}
+			]
+		},
+		{
+			"periode": "2023",
+			"journal": "Sustainability",
+			"journal_url": "https://www.mdpi.com/journal/sustainability",
+			"images": [{
+					"img": "Sustainability.png",
+					"url": "https://www.mdpi.com/journal/sustainability"
+				}
+			]
+		},
+		{
+			"periode": "2023",
+			"journal": "IEEE Transactions on Visualization and Computer Graphics",
+			"journal_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2945",
+			"images": [{
+					"img": "TVCG.jpg",
+					"url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2945"
+				}
+			]
+		},
+		{
+			"periode": "2021",
+			"journal": "Conference on Computer Applications and Quantitative Methods in Archaeology (CAA2021)",
+			"journal_url": "https://2021.caaconference.org",
+			"images": [{
+					"img": "caa2021.jpg",
+					"url": "https://2021.caaconference.org"
+				}
+			]
+		},
+		{
+			"periode": "2017",
+			"journal": "Journal of Computer Applications in Archaeology (JCAA)",
+			"journal_url": "https://journal.caa-international.org",
+			"images": [{
+					"img": "jcaa.png",
+					"url": "https://journal.caa-international.org"
+				}
+			]
+		}
+		]
+	},
+	"Events": {
+		"nom_fr": "Organisation d'événements",
+		"nom_en": "Organisation of events",
+		"event": [{
+			"periode": "7/12/2017",
+			"intitule_en": "CReAAH day dedicated to 3d and archaeology",
+			"intitule_fr": "Journée du CReAAH consacrée à la 3D et à l'archéologie",
+			"url": "./cv/imgs/big/journee_3d_archeologie.pdf",
+			"images": [{
+					"img": "journee_3d_archeologie.jpg",
+					"url": "https://github.com/jean-baptiste-barreau/jean-baptiste-barreau.github.io/blob/main/index_fichiers/big/journee_3d_archeologie.pdf?raw=true"
+				}
+			]
+		},
+		{
+			"periode": "18-21/04/2017",
+			"intitule_en": "XXIth conference of the GMPCA: Session 5 - Creating knowledge in building archaeology: material analyses, surveys, 3d models...",
+			"intitule_fr": "XXIème conférence du GMPCA : Session 5 - Créer de la connaissance en archéologie du bâti : analyses de matériaux, relevés, modèles 3D...",
+			"url": "./cv/imgs/big/gmpca2017.pdf",
+			"images": [{
+					"img": "gmpca2017.png",
+					"url": "https://github.com/jean-baptiste-barreau/jean-baptiste-barreau.github.io/blob/main/index_fichiers/big/gmpca2017.pdf?raw=true"
+				}
+			]
+		},
+		{
+			"periode": "2-3/10/2014",
+			"intitule_en": "Western Archaeological Seminars: 3D and Archaeology",
+			"intitule_fr": "Séminaires d'Archéologie de l'Ouest (SAO): 3D et archéologie",
+			"url": "./cv/imgs/big/SAO3D.pdf",
+			"images": [{
+					"img": "SAO3D.jpg",
+					"url": "https://github.com/jean-baptiste-barreau/jean-baptiste-barreau.github.io/blob/main/index_fichiers/big/SAO3D.pdf?raw=true"
+				}
+			]
+		}
+		]
+	},
+	"Diffusions": {
+		"nom_fr": "Activités de diffusion scientifique",
+		"nom_en": "Scientific dissemination activities",
+		"categories": [
+		{
+			"nom_fr": "Webmastering",
+			"nom_en": "Webmastering",
+			"diffusion": [
+			{
+				"periode": "2018",
+				"intitule_en": "International Meeting: Megaliths of the World (creation/update)",
+				"intitule_fr": "Rencontre internationale : Mégalithes du monde (création/mise à jour)",
+				"url": "https://immw2019.sciencesconf.org/",
+				"images": [{
+						"img": "immw.png",
+						"url": "https://immw2019.sciencesconf.org/"
+					}
+				]
+			},
+			{
+				"periode": "2017",
+				"intitule_en": "CReAAH UMR6566 (update)",
+				"intitule_fr": "CReAAH UMR6566 (mise à jour)",
+				"url": "https://creaah.cnrs.fr/",
+				"images": [{
+						"img": "CReAAH.png",
+						"url": "https://creaah.cnrs.fr/"
+					}
+				]
+			},
+			{
+				"periode": "2013-2019",
+				"intitule_en": "West Digital Conservatory of Archaeological Heritage project (creation/update)",
+				"intitule_fr": "Projet de Conservatoire Numérique du Patrimoine Archéologique de l'Ouest (création/mise à jour)",
+				"url": "https://journals.openedition.org/nda/3840",
+				"images": [{
+						"img": "cnpao.png",
+						"url": "https://journals.openedition.org/nda/3840"
+					}
+				]
+			},
+			{
+				"periode": "2010",
+				"intitule_en": "NutriNeuro: Integrated Nutrition and Neurobiology Lab (creation)",
+				"intitule_fr": "NutriNeuro : Laboratoire Nutrition et Neurobiologie Intégrée (création)",
+				"url": "https://www6.bordeaux-aquitaine.inrae.fr/nutrineuro",
+				"images": [{
+						"img": "nutrineuro.png",
+						"url": "https://www6.bordeaux-aquitaine.inrae.fr/nutrineuro"
+					}
+				]
+			}
+			]
+		},
+		{
+			"nom_fr": "Apparitions télévisuelles",
+			"nom_en": "TV appearances",
+			"diffusion": [
+			{
+				"periode": "8/02/2017",
+				"intitule_en": "High-tech archaeology - Xenius - ARTE",
+				"intitule_fr": "L’archéologie high tech - Xenius - ARTE",
+				"url": "https://www.cnrs.fr/CNRS-Hebdo/bretagne-paysdeloire/actus.php?numero=11666",
+				"images": [{
+						"img": "xenius2017.jpg",
+						"url": "https://www.cnrs.fr/CNRS-Hebdo/bretagne-paysdeloire/actus.php?numero=11666"
+					}
+				]
+			},
+			{
+				"periode": "5/12/2015",
+				"intitule_en": "In Brittany, virtual reality excavates our past - FUTUREMAG - ARTE",
+				"intitule_fr": "En Bretagne, la réalité virtuelle pour fouiller notre passé - FUTUREMAG - ARTE",
+				"url": "https://www.youtube.com/watch?v=E4xtfrq5LPw",
+				"images": [{
+						"img": "FUTUREMAG_2015.jpg",
+						"url": "https://www.youtube.com/watch?v=E4xtfrq5LPw"
+					}
+				]
+			},
+			{
+				"periode": "19/06/2015",
+				"intitule_en": "Report on Rennes' medieval past at the portes Mordelaises - JT 12/13 - France 3 Bretagne",
+				"intitule_fr": "Reportage sur le passé médiéval de Rennes aux portes Mordelaises - JT 12/13 - France 3 Bretagne",
+				"url": "https://france3-regions.francetvinfo.fr/bretagne/2015/06/18/plongeon-dans-le-passe-ce-week-end-avec-les-journees-de-l-archeologie-749959.html",
+				"images": [{
+						"img": "FR3_2015.jpg",
+						"url": "https://france3-regions.francetvinfo.fr/bretagne/2015/06/18/plongeon-dans-le-passe-ce-week-end-avec-les-journees-de-l-archeologie-749959.html"
+					}
+				]
+			},
+			{
+				"periode": "11/03/2009",
+				"intitule_en": "Report on disability and employment - JT 19/20 France 3 Aquitaine - Bordeaux Métropole",
+				"intitule_fr": "Reportage sur le handicap et l'emploi - JT 19/20 France 3 Aquitaine - Bordeaux Métropole",
+				"url": "https://www.youtube.com/watch?v=s2Een95agkE",
+				"images": [{
+						"img": "FR3_2009.jpg",
+						"url": "https://www.youtube.com/watch?v=s2Een95agkE"
+					}
+				]
+			}
+			]
+		},
+		{
+			"nom_fr": "Vidéos en ligne",
+			"nom_en": "Online videos",
+			"diffusion": [
+			{
+				"periode": "2021",
+				"intitule_en": "Session 4 - Methods for the study of large Neolithic stone monuments in Westeren France (Luc Laporte)",
+				"intitule_fr": "Session 4 - Methods for the study of large Neolithic stone monuments in Westeren France (Luc Laporte)",
+				"url": "https://www.youtube.com/watch?v=AHJIxnxW5uM",
+				"images": [{
+						"img": "TumuliEurasia.jpg",
+						"url": "https://www.youtube.com/watch?v=AHJIxnxW5uM"
+					}
+				]
+			},
+			{
+				"periode": "2020",
+				"intitule_en": "Introspect project - Beg-Er-Vil site",
+				"intitule_fr": "Projet Introspect - site de Beg-Er-Vil",
+				"url": "https://youtu.be/S19W-i8bT1U",
+				"images": [{
+						"img": "Introspect2020.jpg",
+						"url": "https://youtu.be/S19W-i8bT1U"
+					}
+				]
+			},
+			{
+				"periode": "2019",
+				"intitule_en": "HumanOs: An innovative system for digital recording of bone remains (Annual colloquium of Inrap entitled 'Archaeology and Judicial Investigations' held at the Paris Tribunal on November 22 and 23, 2019)",
+				"intitule_fr": "HumanOs : un système innovant d’enregistrement numérique des ossements (Colloque annuel de l'Inrap intitulé « Archéologie et enquêtes judiciaires » tenu au Tribunal de Paris les 22 et 23 novembre 2019)",
+				"url": "https://www.inrap.fr/humanos-un-systeme-innovant-d-enregistrement-numerique-des-ossements-14685",
+				"images": [{
+						"img": "humanos_inrap.png",
+						"url": "https://www.inrap.fr/humanos-un-systeme-innovant-d-enregistrement-numerique-des-ossements-14685"
+					}
+				]
+			},
+			{
+				"periode": "2019",
+				"intitule_en": "Immersia, Virtual Reality platform",
+				"intitule_fr": "Immersia, plateforme de Réalité Virtuelle",
+				"url": "https://youtu.be/eQpJPH8uvRw",
+				"images": [{
+						"img": "Immersia2019.jpg",
+						"url": "https://youtu.be/eQpJPH8uvRw"
+					}
+				]
+			},
+			{
+				"periode": "2017",
+				"intitule_en": "Archaeological reconstitutions in Immersia",
+				"intitule_fr": "Reconstitutions archéologiques en Immersia",
+				"url": "https://youtu.be/t-7vq-TeA8c",
+				"images": [{
+						"img": "Immersia2017.jpg",
+						"url": "https://youtu.be/t-7vq-TeA8c"
+					}
+				]
+			},
+			{
+				"periode": "2015",
+				"intitule_en": "An Immersive Virtual Sailing on the 18th-Century Ship Le Boullongne",
+				"intitule_fr": "Une navigation virtuelle immersive sur le navire du XVIIIe siècle Le Boullongne",
+				"url": "https://youtu.be/i6CGVWDjs-A",
+				"images": [{
+						"img": "Boullongne2015.jpg",
+						"url": "https://youtu.be/i6CGVWDjs-A"
+					}
+				]
+			},
+			{
+				"periode": "2013",
+				"intitule_en": "The French National Day of Archaeology 2013 in Immersia",
+				"intitule_fr": "La Journée nationale de l'archéologie 2013 à Immersia",
+				"url": "https://youtu.be/gr9MMmVRr74",
+				"images": [{
+						"img": "Immersia2013.jpg",
+						"url": "https://youtu.be/gr9MMmVRr74"
+					}
+				]
+			}
+			]
+		}
+		]
+	},
+	"Awards": {
+		"nom_fr": "Prix",
+		"nom_en": "Awards",
+		"award": [{
+			"periode": "2014",
+			"intitule_en": "3rd Werner Weber Award",
+			"intitule_fr": "3ème Prix Werner Weber",
+			"lieu_en": "5th International Euro-Mediterranean Conference (EuroMed 2014), Limassol, Cyprus",
+			"lieu_fr": "5ème conférence internationale euro-méditerranéenne (EuroMed 2014), Limassol, Chypre",
+			"url": "https://trajectoires.cnrs.fr/le-laboratoire/prix-et-distinctions/",
+			"images": [{
+					"img": "3rd_Werner_Weber_Award.jpg",
+					"url": "./cv/imgs/big/3rd_Werner_Weber_Award.jpg"
+				}
+			]
+		}
+		]
+	}
+}
