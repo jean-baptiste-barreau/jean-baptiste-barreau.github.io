@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="fr"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <link rel="stylesheet" href="MatchHelp_fichiers/all.min.css">
+      <title>MatchHelp</title>
+      <style>
+         body {
+         font-family: 'Garamond', serif;
+         margin: 0;
+         padding-left: 20px;
+		 padding-right: 20px;
+         text-align: center;
+         background-color: #f4f4f4;
+         }
+         header {
+         background-color: #f4f4f4;
+         }
+         header img {
+         height: 200px;
+         }
+         .marquee {
+         width: 100%;
+         overflow: hidden;
+         position: relative;
+         background-color: #f0f0f0; /* Couleur de fond du bandeau */
+         }
+         .marquee {
+         width: 100%;
+         overflow: hidden;
+         position: relative;
+         background-color: #f0f0f0; /* Couleur de fond du bandeau */
+         }
+         .marquee-content {
+         display: flex;
+         width: max-content; /* Permet au contenu de s'étendre */
+         animation: scroll 30s linear infinite;
+         }
+         .marquee img {
+         height: 200px; /* Ajustez la hauteur de l'image selon vos besoins */
+         margin-right: 10px; /* Espace entre les images */
+         }
+         @keyframes scroll {
+         0% {
+         transform: translateX(0%);
+         }
+         100% {
+         transform: translateX(-50%);
+         }
+         }
+         .content {
+         padding: 0px;
+		 text-align: left;
+         }
+         .content h1 {
+         color: #333;
+         }
+         .content p {
+         color: #555;
+         font-size: 22px;
+         margin: 20px 0;
+         }
+		  .language-switch {
+            margin: 20px;
+            text-align: center;
+        }
+        .lang-fr, .lang-en {
+            display: none;
+        }
+        .lang-fr.active, .lang-en.active {
+            display: block;
+        }
+         .buttons {
+         margin: 20px 0;
+         }
+         .buttons a {
+         text-decoration: none;
+		 font-size: 24px;
+         color: white;
+         background-color: #007bff;
+         padding: 10px 20px;
+         border-radius: 5px;
+         margin: 5px;
+         display: inline-block;
+         }
+         .buttons a:hover {
+         background-color: #0056b3;
+         }
+		 
+		 .language-button {
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.language-button:hover {
+    background-color: #0056b3; /* Change this to the color you want when hovering */
+}
+      </style>
+   </head>
+   <body>
+      <header>
+         <img src="MatchHelp_fichiers/logo.png" alt="Logo MatchHelp">
+      </header>
+      <div class="marquee">
+         <div class="marquee-content" id="marquee-content"><img src="MatchHelp_fichiers/1.png" alt="Image 1"><img src="MatchHelp_fichiers/2.png" alt="Image 2"><img src="MatchHelp_fichiers/3.png" alt="Image 3"><img src="MatchHelp_fichiers/4.png" alt="Image 4"><img src="MatchHelp_fichiers/5.png" alt="Image 5"><img src="MatchHelp_fichiers/6.png" alt="Image 6"><img src="MatchHelp_fichiers/7.png" alt="Image 7"><img src="MatchHelp_fichiers/8.png" alt="Image 8"><img src="MatchHelp_fichiers/9.png" alt="Image 9"><img src="MatchHelp_fichiers/10.png" alt="Image 10"><img src="MatchHelp_fichiers/11.png" alt="Image 11"><img src="MatchHelp_fichiers/12.png" alt="Image 12"><img src="MatchHelp_fichiers/13.png" alt="Image 13"><img src="MatchHelp_fichiers/14.png" alt="Image 14"><img src="MatchHelp_fichiers/15.png" alt="Image 15"><img src="MatchHelp_fichiers/1.png" alt="Image 1"><img src="MatchHelp_fichiers/2.png" alt="Image 2"><img src="MatchHelp_fichiers/3.png" alt="Image 3"><img src="MatchHelp_fichiers/4.png" alt="Image 4"><img src="MatchHelp_fichiers/5.png" alt="Image 5"><img src="MatchHelp_fichiers/6.png" alt="Image 6"><img src="MatchHelp_fichiers/7.png" alt="Image 7"><img src="MatchHelp_fichiers/8.png" alt="Image 8"><img src="MatchHelp_fichiers/9.png" alt="Image 9"><img src="MatchHelp_fichiers/10.png" alt="Image 10"><img src="MatchHelp_fichiers/11.png" alt="Image 11"><img src="MatchHelp_fichiers/12.png" alt="Image 12"><img src="MatchHelp_fichiers/13.png" alt="Image 13"><img src="MatchHelp_fichiers/14.png" alt="Image 14"><img src="MatchHelp_fichiers/15.png" alt="Image 15"></div>
+      </div>
+      <script>
+         const totalImages = 15;  // Nombre total d'images
+         const marqueeContent = document.getElementById('marquee-content');
+         
+         // Fonction pour créer les balises <img>
+         function createImages() {
+             for (let i = 1; i <= totalImages; i++) {
+                 const img = document.createElement('img');
+                 img.src = `imgs/${i}.png`;
+                 img.alt = `Image ${i}`;
+                 marqueeContent.appendChild(img);
+             }
+         }
+         
+         // Générer deux fois les images pour un défilement continu
+         createImages();
+         createImages();
+      </script>
+	  
+	  
+      <div class="buttons">
+    <a href="https://www.facebook.com/profile.php?id=61555909944958" target="_blank">
+        <i class="fab fa-facebook"></i>
+    </a>
+    <a href="https://www.instagram.com/projetmatchhelp/" target="_blank">
+        <i class="fab fa-instagram"></i>
+    </a>
+	
+	<a href="mailto:jb.barreau@gmail.com" target="_blank">
+        <i class="fas fa-envelope"></i>
+    </a>
+</div>
+		 <div class="language-switch">
+        <button onclick="switchLanguage('fr')" class="language-button">
+    <img src="MatchHelp_fichiers/325972_flag_france_icon.png" alt="Français" style="width: 25px;">
+</button>
+<button onclick="switchLanguage('en')" class="language-button">
+    <img src="MatchHelp_fichiers/2361499_kingdom_uk_united_icon.png" alt="English" style="width: 25px;">
+</button>
+    </div>
+
+    <div class="content">
+        <div class="lang-fr">
+            <p>MatchHelp est un projet d'application mobile conçu pour 
+révolutionner la manière dont les personnes handicapées trouveraient et 
+interagiraient avec les auxiliaires de vie. Elle viserait à répondre aux
+ limitations des modèles traditionnels de mise en relation, qui 
+impliquent souvent des intermédiaires coûteux et n'offrent aucune 
+garantie quant à la capacité des auxiliaires de vie à répondre 
+correctement aux besoins. L'objectif de MatchHelp est de créer une 
+plateforme sûre, transparente et efficace, bénéfique tant pour les 
+utilisateurs que pour les auxiliaires de vie.</p>
+            
+            <p>L'un des éléments clés de MatchHelp serait son système de
+ mise en relation intelligent. Ce système utiliserait des outils avancés
+ pour optimiser la compatibilité entre les utilisateurs et les 
+auxiliaires de vie. En prenant en compte des facteurs tels que la 
+localisation, les horaires et les compétences requises, MatchHelp 
+viserait à garantir que les utilisateurs soient mis en relation avec des
+ auxiliaires de vie répondant au mieux à leurs besoins spécifiques. De 
+plus, l'application proposerait un modèle financier unique visant à 
+améliorer la situation financière des auxiliaires de vie tout en offrant
+ aux utilisateurs des services d'aide à domicile abordables.</p>
+            
+            <p>Au lieu de passer par des intermédiaires, MatchHelp 
+permettrait aux utilisateurs de se connecter directement avec des 
+auxiliaires de vie, réduisant ainsi les coûts administratifs et 
+permettant une rémunération plus élevée pour les auxiliaires de vie. Les
+ auxiliaires de vie de MatchHelp pourraient recevoir un complément de 
+rémunération, en fonction des évaluations des utilisateurs et de leurs 
+compétences. Ce modèle serait soutenu par les abonnements des 
+utilisateurs et la collecte de fonds. MatchHelp comprendrait également 
+un éventail de fonctionnalités conçues pour améliorer l'expérience 
+utilisateur globale, notamment un processus d'inscription simple et 
+sécurisé, des profils détaillés pour les utilisateurs et les auxiliaires
+ de vie, des calendriers partagés, des modules de gestion administrative
+ et un système de notation et de recommandation. Les notifications en 
+temps réel maintiendraient les utilisateurs informés des mises à jour, 
+des nouvelles missions et des évaluations.</p>
+            <center><img src="MatchHelp_fichiers/schema.png" width="50%" alt="schéma"></center>
+            
+            <p>Étant fonctionnaire, le concepteur de l'application n'a 
+pas la possibilité de diriger ou de participer à une entreprise, et n'a 
+pas l'intention de générer des revenus avec cette application. Son seul 
+souhait est que l'application voie le jour. En l'état, il est aussi 
+impossible de déposer un brevet auprès de l'Institut National de la 
+Propriété Industrielle (INPI), car la brevetabilité exige une « 
+innovation technique nouvelle », ce que le concept de « mise en relation
+ » et les algorithmes proposés dans ce projet ne remplissent pas. C'est 
+pourquoi le concepteur de l'application permet à toute entreprise 
+intéressée de développer librement ce projet et reste à disposition pour
+ échanger.</p>
+        </div>
+        <div class="lang-en active">
+            <p>MatchHelp is a mobile app project designed to 
+revolutionize the way disabled people find and interact with caregivers.
+ It aims to address the limitations of traditional matchmaking models, 
+which often involve costly intermediaries and offer no guarantee that 
+caregivers can properly meet the needs. The goal of MatchHelp is to 
+create a safe, transparent, and efficient platform, beneficial for both 
+users and caregivers.</p>
+            
+            <p>One of the key elements of MatchHelp would be its 
+intelligent matchmaking system. This system would use advanced tools to 
+optimize compatibility between users and caregivers. By taking into 
+account factors such as location, schedules, and required skills, 
+MatchHelp would aim to ensure that users are matched with caregivers who
+ best meet their specific needs. Additionally, the app would offer a 
+unique financial model aimed at improving caregivers' financial 
+situation while providing users with affordable home care services.</p>
+            
+            <p>Instead of going through intermediaries, MatchHelp would 
+allow users to connect directly with caregivers, thereby reducing 
+administrative costs and enabling higher remuneration for caregivers. 
+MatchHelp caregivers could receive additional compensation based on user
+ reviews and their skills. This model would be supported by user 
+subscriptions and fundraising. MatchHelp would also include a range of 
+features designed to enhance the overall user experience, including a 
+simple and secure registration process, detailed profiles for users and 
+caregivers, shared calendars, administrative management modules, and a 
+rating and recommendation system. Real-time notifications would keep 
+users informed of updates, new missions, and reviews.</p>
+            <center><img src="MatchHelp_fichiers/schema.png" width="50%" alt="schematic"></center>
+            
+            <p>As a civil servant, the app's designer cannot lead or 
+participate in a business and does not intend to generate revenue from 
+this app. His only wish is that the app comes to life. As it stands, it 
+is also impossible to file a patent with the French National Institute 
+of Industrial Property (INPI), as patentability requires a "new 
+technical innovation," which the "matchmaking" concept and the 
+algorithms proposed in this project do not meet. This is why the app's 
+designer allows any interested company to freely develop this project 
+and remains available for discussion.</p>
+        </div>
+    </div>
+
+    <script>
+        function switchLanguage(lang) {
+            document.querySelector('.lang-fr').classList.remove('active');
+            document.querySelector('.lang-en').classList.remove('active');
+            
+            if (lang === 'fr') {
+                document.querySelector('.lang-fr').classList.add('active');
+            } else if (lang === 'en') {
+                document.querySelector('.lang-en').classList.add('active');
+            }
+        }
+    </script>
+
+   
+
+</body></html>
