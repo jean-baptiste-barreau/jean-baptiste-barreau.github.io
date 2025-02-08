@@ -74,7 +74,7 @@
 		}
 
         // Charger le fichier explorateurs.json
-        fetch('explorateurs.json?t=' + new Date().getTime())
+        fetch('./explorateurs.json?t=' + new Date().getTime())
         .then(response => response.json())
         .then(data => {
             data.forEach(explorateur => {
