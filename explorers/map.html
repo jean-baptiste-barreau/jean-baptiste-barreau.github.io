@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Explorers' Journeys</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 900px;
+            width: calc(100% - 250px); /* Réduit la largeur pour laisser de l'espace à la légende */
+            float: left; /* Aligne la carte à gauche */
+        }
+        #legend {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 200px;
+            max-height: 950px;
+            overflow-y: auto;
+            background: white;
+            padding: 10px;
+            margin-left: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            font-size: 14px;
+        }
+        .legend-item {
+            margin-bottom: 5px;
+        }
+        .legend-item input {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Explorers' Journeys</h1>
+    <div id="map"></div>
+    <div id="legend" class="legend"></div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script>
+        // Initialisation de la carte
+        var map = L.map('map', { attributionControl: false }).setView([7.245685973710015, 21.470800698346405], 3); // Centré sur l'Afrique du Nord
+
+        // Ajout des tuiles OpenStreetMap
+        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        var colors = {}; // Pour stocker les couleurs des livres
+        var polylineLayers = {}; // Pour stocker les polylignes liées à chaque livre
+        var markerLayers = {}; // Pour stocker les marqueurs liés à chaque livre
+
+        // Fonction pour générer une couleur aléatoire
+        function getRandomColor() {
+			let color;
+			do {
+				color = '#' + Math.floor(Math.random() * 16777215).toString(16);
+			} while (isTooDark(color));
+			return color;
+		}
+
+		// Vérifie si la couleur est trop sombre
+		function isTooDark(hex) {
+			// Convertir l'hex en valeurs RGB
+			let r = parseInt(hex.substring(1, 3), 16);
+			let g = parseInt(hex.substring(3, 5), 16);
+			let b = parseInt(hex.substring(5, 7), 16);
+
+			// Calculer la luminosité perçue (formule relative aux standards WCAG)
+			let brightness = (r * 299 + g * 587 + b * 114) / 1000;
+			return brightness < 60; // Seuil à ajuster (60 empêche les couleurs très sombres)
+		}
+
+        // Charger le fichier explorateurs.json
+        fetch('explorateurs.json?t=' + new Date().getTime())
+        .then(response => response.json())
+        .then(data => {
+            data.forEach(explorateur => {
+                var previousEtape = null;
+                var polylineCoordinates = [];
+                var markers = []; // Liste des marqueurs associés à ce livre
+
+                // Si le livre n'a pas encore de couleur attribuée, on en génère une
+                if (!colors[explorateur.livre.titre]) {
+                    colors[explorateur.livre.titre] = getRandomColor();
+                }
+
+                // Initialiser un compteur d'étape
+                var etapeCounter = 1;
+
+                // Parcourir chaque étape du voyage
+                explorateur.etapes.forEach((etape, index) => {
+                    if (etape.latitude && etape.longitude) {
+                        // Ajouter les coordonnées de l'étape pour la polyline
+                        polylineCoordinates.push([etape.latitude, etape.longitude]);
+
+                        // Compter le nombre d'étapes avec des coordonnées nulles entre l'étape précédente et celle-ci
+                        var nullStepCount = 0;
+                        if (previousEtape) {
+                            for (let i = index - 1; i >= 0; i--) {
+                                if (!explorateur.etapes[i].latitude || !explorateur.etapes[i].longitude) {
+                                    nullStepCount++;
+                                } else {
+                                    break;
+                                }
+                            }
+                        }
+
+                        // Créer une icône personnalisée avec le numéro de l'étape et le nombre d'étapes nulles
+                        var iconHtml = `<div style="background-color:${colors[explorateur.livre.titre]}; border-radius:50%; width:30px; height:30px; display:flex; align-items:center; justify-content:center; color:white;">${etapeCounter}`;
+                        if (nullStepCount > 0) {
+                            iconHtml += `<span style="font-size:10px; margin-left:5px;">(${nullStepCount})</span>`;
+                        }
+                        iconHtml += `</div>`;
+
+                        var icon = L.divIcon({
+                            className: 'custom-div-icon', 
+                            html: iconHtml,
+                            iconSize: [30, 30]
+                        });
+
+                        // Créer un marqueur avec l'icône personnalisée
+                        var marker = L.marker([etape.latitude, etape.longitude], {
+                            icon: icon
+                        }).bindPopup(`
+                            <strong>Départ : ${etape.lieu_depart}</strong><br/>
+                            <em>${explorateur.livre.titre} (${explorateur.livre.annee})</em> par ${explorateur.livre.auteur}<br/>
+                            <strong>Description :</strong> ${etape.description}<br/>
+                            <strong>Moyen de transport :</strong> ${etape.moyen_transport}<br/>
+                            <strong>Date de départ :</strong> ${etape.date_depart}<br/>
+                            <strong>Nourriture :</strong> ${etape.nourriture || 'Non mentionnée'}<br/>
+                            <a href="${explorateur.livre.url}" target="_blank">En savoir plus</a>
+                        `);
+
+                        // Ajouter le marqueur à la liste des marqueurs
+                        markers.push(marker);
+
+                        // Incrémenter le compteur d'étape
+                        etapeCounter++;
+
+                        previousEtape = etape;
+                    }
+                });
+
+                // Créer une polyline pour relier les étapes du voyage
+                var polyline = L.polyline(polylineCoordinates, {
+                    color: colors[explorateur.livre.titre],
+                    weight: 3,
+                    opacity: 0.7
+                });
+
+                // Stocker la polyline et les marqueurs associés à ce livre
+                polylineLayers[explorateur.livre.titre] = polyline;
+                markerLayers[explorateur.livre.titre] = L.layerGroup(markers);
+				
+				map.addLayer(polylineLayers[explorateur.livre.titre]);
+				map.addLayer(markerLayers[explorateur.livre.titre]);
+
+                // Ajouter une entrée dans la légende
+                var legend = document.getElementById('legend');
+                var legendItem = document.createElement('div');
+                legendItem.className = 'legend-item';
+                legendItem.innerHTML = `
+                    <input type="checkbox" id="${explorateur.livre.titre}" checked />
+                    <label for="${explorateur.livre.titre}" style="color: ${colors[explorateur.livre.titre]}">
+                        ${explorateur.livre.annee} - ${explorateur.livre.auteur} - ${explorateur.livre.titre}
+                    </label>
+                `;
+                legend.appendChild(legendItem);
+
+                // Ajouter un événement pour afficher/masquer les polylines et les marqueurs
+                var checkbox = document.getElementById(explorateur.livre.titre);
+                checkbox.addEventListener('change', function(e) {
+                    if (e.target.checked) {
+                        map.addLayer(polylineLayers[explorateur.livre.titre]);
+                        map.addLayer(markerLayers[explorateur.livre.titre]);
+                    } else {
+                        map.removeLayer(polylineLayers[explorateur.livre.titre]);
+                        map.removeLayer(markerLayers[explorateur.livre.titre]);
+                    }
+                });
+            });
+        })
+        .catch(error => console.error('Erreur lors du chargement du fichier JSON :', error));
+
+    </script>
+</body>
+</html>
