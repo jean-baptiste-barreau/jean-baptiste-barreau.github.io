@@ -155,15 +155,15 @@
                 polylineLayers[explorateur.livre.titre] = polyline;
                 markerLayers[explorateur.livre.titre] = L.layerGroup(markers);
 				
-				map.addLayer(polylineLayers[explorateur.livre.titre]);
-				map.addLayer(markerLayers[explorateur.livre.titre]);
+				//map.addLayer(polylineLayers[explorateur.livre.titre]);
+				//map.addLayer(markerLayers[explorateur.livre.titre]);
 
                 // Ajouter une entrée dans la légende
                 var legend = document.getElementById('legend');
                 var legendItem = document.createElement('div');
                 legendItem.className = 'legend-item';
                 legendItem.innerHTML = `
-                    <input type="checkbox" id="${explorateur.livre.titre}" checked />
+                    <input type="checkbox" id="${explorateur.livre.titre}" />
                     <label for="${explorateur.livre.titre}" style="color: ${colors[explorateur.livre.titre]}">
                         ${explorateur.livre.annee} - ${explorateur.livre.auteur} - ${explorateur.livre.titre}
                     </label>
