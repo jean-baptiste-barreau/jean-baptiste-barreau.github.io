@@ -21,6 +21,8 @@ from scipy.cluster.hierarchy import fcluster
 from sklearn.metrics import silhouette_score, calinski_harabasz_score
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
+import sys
+import platform
 
 #_corrected_manually Books about Africa -- Description and travel: https://www.gutenberg.org/ebooks/subject/612
 
@@ -681,7 +683,7 @@ def perform_pca(df, output_dir="pca_results"):
 
     # Step 1: Prepare data
     numeric_cols = df.select_dtypes(include=[np.number]).columns
-    df_numeric = df[numeric_cols].fillna(0)  # Replace missing values with 0
+    df_numeric = df[numeric_cols].fillna(0)
 
     # Standardize data
     scaler = StandardScaler()
@@ -691,11 +693,10 @@ def perform_pca(df, output_dir="pca_results"):
     pca = PCA()
     principal_components = pca.fit_transform(data_scaled)
 
-    # Step 3: Numerical results
+    # Step 3: Explained variance
     explained_variance = pca.explained_variance_ratio_
     cum_explained_variance = np.cumsum(explained_variance)
 
-    # Export explained variance information
     variance_df = pd.DataFrame({
         "Component": [f"PC{i+1}" for i in range(len(explained_variance))],
         "Explained Variance": explained_variance,
@@ -710,45 +711,55 @@ def perform_pca(df, output_dir="pca_results"):
     )
     individuals_df.to_csv(f"{output_dir}/individuals_coordinates.csv", index=False)
 
-    # Step 5: Variable contributions
+    # Step 5: Variable contributions (loadings)
     loadings = pca.components_.T
     loadings_df = pd.DataFrame(
-        loadings, 
+        loadings,
         columns=[f"PC{i+1}" for i in range(len(explained_variance))],
         index=numeric_cols
     )
     loadings_df.to_csv(f"{output_dir}/variables_contributions.csv")
 
-    # Step 6: Visualizations
-    # 6.1: Explained variance
+    # Step 6: Equations of principal components
+    equations = []
+    for i in range(len(explained_variance)):
+        component_loadings = loadings_df[f"PC{i+1}"]
+        equation = f"PC{i+1} = " + " + ".join(
+            [f"({coef:.3f})*{var}" for var, coef in component_loadings.items()]
+        )
+        equations.append(equation)
+
+    # Save equations to a text file
+    with open(f"{output_dir}/pca_equations.txt", "w") as eq_file:
+        eq_file.write("Equations of Principal Components:\n\n")
+        eq_file.write("\n".join(equations))
+
+    # Step 7: Visualizations
+    # Explained variance plot
     plt.figure(figsize=(10, 6))
     plt.bar(range(1, len(explained_variance) + 1), explained_variance, alpha=0.7, label='Individual')
     plt.step(range(1, len(cum_explained_variance) + 1), cum_explained_variance, where='mid', label='Cumulative')
     plt.xlabel('Principal Components')
     plt.ylabel('Explained Variance')
-    plt.title('Explained Variance by Principal Components')
     plt.legend()
+    plt.title('Explained Variance by Principal Components')
     plt.savefig(f"{output_dir}/explained_variance.png")
     plt.close()
 
-    # 6.2: Correlation circle
+    # Correlation circle plot
     plt.figure(figsize=(10, 8))
-    plt.scatter(loadings[:, 0], loadings[:, 1], color='b', marker='o')
-    
-    # Annotate each variable, avoiding text overlap
+    plt.scatter(loadings[:, 0], loadings[:, 1], color='b')
     for i, var in enumerate(numeric_cols):
         plt.text(loadings[i, 0], loadings[i, 1], var, color='red', fontsize=12, ha='center', va='center')
-
-    plt.axhline(0, color='black',linewidth=1)
-    plt.axvline(0, color='black',linewidth=1)
-    # plt.title('Correlation Circle')
+    plt.axhline(0, color='black', linewidth=1)
+    plt.axvline(0, color='black', linewidth=1)
     plt.xlabel('PC1')
     plt.ylabel('PC2')
     plt.grid(True)
     plt.savefig(f"{output_dir}/correlation_circle.png")
     plt.close()
 
-    # Step 7: Interpretation and text file generation
+    # Step 8: Summary text file
     results_txt = [
         "PCA Results:\n",
         "Explained Variance by Component:\n",
@@ -756,14 +767,13 @@ def perform_pca(df, output_dir="pca_results"):
         "\n\nTop Variables Contributing to PC1:\n",
         loadings_df["PC1"].sort_values(ascending=False).head(5).to_string(),
         "\n\nTop Variables Contributing to PC2:\n",
-        loadings_df["PC2"].sort_values(ascending=False).head(5).to_string()
+        loadings_df["PC2"].sort_values(ascending=False).head(5).to_string(),
+        "\n\nEquations of Principal Components:\n",
+        "\n".join(equations)
     ]
-
+    
     with open(f"{output_dir}/pca_summary.txt", "w") as f:
         f.writelines("\n".join(results_txt))
-
-    # Print main results to console
-    # print("\n".join(results_txt))
 
     return individuals_df, loadings_df
 
@@ -805,6 +815,19 @@ def perform_afc(df, output_dir="pca_results"):
     # Résultats
     row_coords = afc.row_coordinates(df_contingency)
     col_coords = afc.column_coordinates(df_contingency)
+    
+    # Exporter les équations des dimensions
+    equations = []
+    for dim in range(col_coords.shape[1]):
+        equation = f"Dim{dim+1} = " + " + ".join(
+            [f"({coef:.3f})·{var}" for var, coef in zip(col_coords.index, col_coords.iloc[:, dim])]
+        )
+        equations.append(equation)
+
+    # Écrire les équations dans un fichier
+    with open(f"{output_dir}/afc_equations.txt", "w") as f:
+        for i, eq in enumerate(equations):
+            f.write(f"Equation for Dimension {i+1}:\n{eq}\n\n")
 
     # Écrire les résultats dans un fichier
     with open(f"{output_dir}/afc_results.txt", "w") as f:
@@ -858,7 +881,7 @@ def perform_dendrogram(df, k=5):
     plt.axhline(y=y_cutoff, color='r', linestyle='--', label=f"Cutoff threshold (y={y_cutoff})")
     plt.legend()
     plt.subplots_adjust(left=0.05, right=0.95, top=0.95, bottom=0.16)
-    plt.savefig(r"C:\Users\jb\Desktop\article explorateurs\results\dendrogram_title.png")
+    plt.savefig(r"C:\xampp\htdocs\explorateurs\Mapping the Past\results\dendrogram_title.png")
     plt.close()
 
     # Regroupement en clusters
@@ -867,8 +890,8 @@ def perform_dendrogram(df, k=5):
     df["Hierarchical_Cluster"] = hierarchical_clusters
 
     # Sauvegarde des résultats hiérarchiques
-    df_numeric.groupby("Hierarchical_Cluster").agg(["mean", "std", "min", "max"]).to_csv(r"C:\Users\jb\Desktop\article explorateurs\results\cluster_summary.csv")
-    df.to_csv(r"C:\Users\jb\Desktop\article explorateurs\results\clusters_filtered.csv", index=False)
+    df_numeric.groupby("Hierarchical_Cluster").agg(["mean", "std", "min", "max"]).to_csv(r"C:\xampp\htdocs\explorateurs\Mapping the Past\results\cluster_summary.csv")
+    df.to_csv(r"C:\xampp\htdocs\explorateurs\Mapping the Past\results\clusters_filtered.csv", index=False)
 
     # Analyse k-means
     kmeans = KMeans(n_clusters=k, random_state=42, n_init=10)
@@ -876,8 +899,25 @@ def perform_dendrogram(df, k=5):
     df["KMeans_Cluster"] = df_numeric["KMeans_Cluster"]
 
     # Sauvegarde des résultats k-means
-    df_numeric.groupby("KMeans_Cluster").agg(["mean", "std", "min", "max"]).to_csv(r"C:\Users\jb\Desktop\article explorateurs\results\kmeans_summary.csv")
-    df.to_csv(r"C:\Users\jb\Desktop\article explorateurs\results\clusters_kmeans.csv", index=False)
+    df_numeric.groupby("KMeans_Cluster").agg(["mean", "std", "min", "max"]).to_csv(r"C:\xampp\htdocs\explorateurs\Mapping the Past\results\kmeans_summary.csv")
+    df.to_csv(r"C:\xampp\htdocs\explorateurs\Mapping the Past\results\clusters_kmeans.csv", index=False)
+
+    # Export des centroïdes (paramètres de la formule) pour K-Means
+    num_features = kmeans.cluster_centers_.shape[1]  # Nombre de colonnes utilisées dans KMeans
+    feature_names = df_numeric.columns[:num_features]  # Assurer la correspondance des noms de colonnes
+
+    kmeans_coeffs = pd.DataFrame(kmeans.cluster_centers_, columns=feature_names)
+    kmeans_coeffs.to_csv(r"C:\xampp\htdocs\explorateurs\Mapping the Past\results\kmeans_coefficients.csv", index=False)
+
+    # Génération du fichier LaTeX avec la formule
+    with open(r"C:\xampp\htdocs\explorateurs\Mapping the Past\results\kmeans_formula.tex", "w") as f:
+        f.write("\\begin{equation}\n")
+        f.write("    \\text{Cluster Center} = ")
+        terms = []
+        for col, coef in zip(feature_names, kmeans.cluster_centers_.mean(axis=0)):  # Moyenne sur tous les clusters
+            terms.append(f"{coef:.3f} \\cdot {col}")
+        f.write(" + ".join(terms) + "\n")
+        f.write("\\end{equation}\n")
 
     print("Clustering terminé et fichiers exportés.")
 
@@ -922,8 +962,26 @@ def save_histograms(df, columns, output_dir):
 def save_pie_charts(df, columns, output_dir):
     for col in columns:
         if col in df.columns:
-            plt.figure(figsize=(6, 6))
-            df[col].value_counts().plot.pie(autopct='%1.1f%%', startangle=90)
+            plt.figure(figsize=(8, 8))
+
+            # Filtrer les valeurs dont le label est une chaîne vide
+            value_counts = df[col].value_counts()
+            filtered_counts = value_counts[value_counts.index != '']
+
+            # Préparer les labels avec des retours à la ligne
+            labels = [label.replace(' ', '\n') for label in filtered_counts.index]
+
+            # Création du diagramme en anneau
+            filtered_counts.plot.pie(
+                labels=labels,
+                autopct='%1.1f%%',
+                startangle=90,
+                wedgeprops={'width': 0.4},
+                pctdistance=0.85,
+                labeldistance=1.2,
+                textprops={'fontsize': 8}
+            )
+
             plt.title(f"Distribution of {col}")
             plt.ylabel('')
             plt.tight_layout()
@@ -963,7 +1021,7 @@ def generate_visualizations(df, output_dir="dir"):
     df_selected, categorical_num_columns = prepare_data(df)
     
     save_histograms(df_selected, categorical_num_columns, output_dir)
-    save_pie_charts(df, ['Nationality', 'Language'], output_dir)
+    save_pie_charts(df, ['Nationality', 'Language', 'Activities'], output_dir)
     save_correlation_heatmap(df_selected, categorical_num_columns, output_dir)
     
     save_scatter_plots(df_selected, 'Total distance traveled (km)', 'Travel duration in days', f"{output_dir}/correlation_distance_duration.png")
@@ -1027,11 +1085,11 @@ def export_books_to_excel(json_file, excel_file, latex_file):
     df, small_df = create_dataframes(data)
     df.to_excel(excel_file, index=False)
     
-    # output_dir = r"C:\Users\jb\Desktop\article explorateurs\results"
-    # components_df = perform_pca(df, output_dir=output_dir)
-    # perform_afc(df)
-    # generate_visualizations(df, output_dir=output_dir)
-    # perform_dendrogram(df)
+    output_dir = r"C:\xampp\htdocs\explorateurs\Mapping the Past\results"
+    components_df = perform_pca(df, output_dir=output_dir)
+    perform_afc(df)
+    generate_visualizations(df, output_dir=output_dir)
+    perform_dendrogram(df)
     
     # print(f"Exportation excel terminée : {excel_file}")
     # export_to_latex(small_df, 'Authors and book titles involved in the study.\\label{tab1}', latex_file)
@@ -1045,6 +1103,11 @@ if __name__ == "__main__":
         opencage_key = 'e43125a0985a4ce392c822eaf2435275'
         filepath = 'explorateurs.json'
 
+        print(f"Version de Python : {sys.version}")
+        print(f"Version Python : {platform.python_version()}")
+        print(f"Implémentation Python : {platform.python_implementation()}")
+        print(f"Système d'exploitation : {platform.system()} {platform.release()}")
+
         # geolocator, opencage_geocoder = init_geolocators(opencage_key)
         # stats = process_explorateurs(filepath, geolocator, opencage_geocoder)
         
@@ -1053,7 +1116,7 @@ if __name__ == "__main__":
         # add_country_to_steps(json_file, output_file)
         
         # Placez votre code ici
-        export_books_to_excel('explorateurs_updated.json', 'livres_sans_etapes.xlsx', r'C:\Users\jb\Desktop\article explorateurs\methods\table_book.tex')
+        export_books_to_excel('explorateurs_updated.json', 'livres_sans_etapes.xlsx', r'C:\xampp\htdocs\explorateurs\Mapping the Past\methods\table_book.tex')
         
         # ajouter_images_aux_explorateurs('explorateurs.json', 'images.json', 'explorateurs_updated.json')
         
@@ -1079,6 +1142,3 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"Une erreur est survenue : {e}")
         input("Appuyez sur Entrée pour quitter...")
-
-
-    
