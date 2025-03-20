@@ -23,6 +23,7 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 import sys
 import platform
+from ydata_profiling import ProfileReport
 
 #_corrected_manually Books about Africa -- Description and travel: https://www.gutenberg.org/ebooks/subject/612
 
@@ -685,6 +686,8 @@ def perform_pca(df, output_dir="pca_results"):
     numeric_cols = df.select_dtypes(include=[np.number]).columns
     df_numeric = df[numeric_cols].fillna(0)
 
+    # print(f"Columns normalized: {df_numeric.columns.tolist()}")
+
     # Standardize data
     scaler = StandardScaler()
     data_scaled = scaler.fit_transform(df_numeric)
@@ -804,6 +807,8 @@ def perform_afc(df, output_dir="pca_results"):
     df_contingency = df_contingency.loc[df_contingency.sum(axis=1) > 0]  # Supprimer les lignes nulles
     df_contingency = df_contingency.loc[:, df_contingency.sum(axis=0) > 0]  # Supprimer les colonnes nulles
 
+    # print(f"Columns normalized: {df_contingency.columns.tolist()}")
+    
     # Vérifier que la matrice n'est pas vide après filtrage
     if df_contingency.empty:
         raise ValueError("La matrice de contingence est vide après suppression des lignes/colonnes nulles.")
@@ -865,6 +870,9 @@ def perform_dendrogram(df, k=5):
     # Sélection des données numériques et gestion des valeurs manquantes
     df_numeric = df.select_dtypes(include=[np.number])
     df_numeric.fillna(df_numeric.mean(), inplace=True)
+
+    # normalized_columns = df_numeric.columns.tolist()
+    # print(f"Columns normalized: {normalized_columns}")
 
     # Normalisation des données
     scaler = StandardScaler()
@@ -1075,6 +1083,8 @@ def create_geojson(json_file):
                 }
                 geojson["features"].append(feature)
 
+    # print(num)
+    
     with open(r'C:\Users\jb\Desktop\Travail\Afrique\sig\data\explorateurs.geojson', "w", encoding="utf-8") as f:
         json.dump(geojson, f, ensure_ascii=False, indent=4)
 
@@ -1091,6 +1101,9 @@ def export_books_to_excel(json_file, excel_file, latex_file):
     generate_visualizations(df, output_dir=output_dir)
     perform_dendrogram(df)
     
+    # profile = ProfileReport(df, title="Profil YData")
+    # profile.to_file("rapport_ydata.html")
+    
     # print(f"Exportation excel terminée : {excel_file}")
     # export_to_latex(small_df, 'Authors and book titles involved in the study.\\label{tab1}', latex_file)
     # print(f"Exportation latex terminée : {latex_file}")
@@ -1102,11 +1115,6 @@ if __name__ == "__main__":
     try:
         opencage_key = 'e43125a0985a4ce392c822eaf2435275'
         filepath = 'explorateurs.json'
-
-        print(f"Version de Python : {sys.version}")
-        print(f"Version Python : {platform.python_version()}")
-        print(f"Implémentation Python : {platform.python_implementation()}")
-        print(f"Système d'exploitation : {platform.system()} {platform.release()}")
 
         # geolocator, opencage_geocoder = init_geolocators(opencage_key)
         # stats = process_explorateurs(filepath, geolocator, opencage_geocoder)
@@ -1142,3 +1150,6 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"Une erreur est survenue : {e}")
         input("Appuyez sur Entrée pour quitter...")
+
+
+    
