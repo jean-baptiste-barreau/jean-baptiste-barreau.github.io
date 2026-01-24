@@ -254,16 +254,6 @@ This design facilitates:
 
 ---
 
-## 🚀 Future Developments
-
-* Weibull and log-normal distributions
-* project save/load system
-* automated PDF reports
-* multi-sample comparison
-* command-line scientific mode
-
----
-
 ## 👤 Authorship & Scientific Lineage
 
 **Developed by**
