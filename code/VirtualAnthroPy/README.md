@@ -188,7 +188,7 @@ pip install numpy opencv-python matplotlib colour
 ### 2. Run the program
 
 ```bash
-python main.py
+python VirtualAnthroPy.py
 ```
 
 ---
