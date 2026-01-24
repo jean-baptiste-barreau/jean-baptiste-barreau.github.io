@@ -25,17 +25,18 @@ Pyk’n’Fit allows:
 
 ## 🧠 Scientific Background
 
-Particle size data are commonly expressed using the **phi (φ) scale**:
+Particle size data are commonly expressed using the phi (φ) scale:
 
-[ φ = - \log_2 \left( \frac{d}{1000} \right) ]
+φ = − log₂(d / 1000)
 
-where *d* is the particle diameter in micrometers (µm).
+where:
+- d is the particle diameter in micrometers (µm)
 
 The measured distribution is modeled as a sum of Gaussian functions:
 
-[ f(x) = \sum_{i=1}^{n} A_i \cdot e^{-\frac{(x-\mu_i)^2}{2\sigma_i^2}} ]
+f(x) = Σ Ai · exp( − (x − μi)² / (2 σi²) )
 
-Each Gaussian component represents a **distinct granulometric population**, often linked to different transport or depositional processes.
+Each Gaussian component represents a distinct granulometric population.
 
 ---
 
