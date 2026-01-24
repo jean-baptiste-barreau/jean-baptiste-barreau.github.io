@@ -8,7 +8,7 @@
 
 This repository contains the source code associated with the following peer-reviewed publication:
 
-**Barreau, J.-B. & [Second author] (2021)**
+**Barreau, J.-B. & Colleter, R. (2020)**
 *Virtual anthropology: a Python tool for 3D visualization and analysis of archaeological data*
 Open Access Journal of Archaeology and Anthropology (OAJAA)
 [https://irispublishers.com/oajaa/pdf/OAJAA.MS.ID.000546.pdf](https://irispublishers.com/oajaa/pdf/OAJAA.MS.ID.000546.pdf)
@@ -209,7 +209,7 @@ These outputs can be imported directly into any compatible 3D visualization soft
 
 If you use this software for academic or research purposes, please cite the following publication:
 
-> Barreau, J.-B. & [Second author] (2021).
+> Barreau, J.-B. & Colleter, R. (2020).
 > *Virtual anthropology: a Python tool for 3D visualization and analysis of archaeological data*.
 > Open Access Journal of Archaeology and Anthropology.
 
@@ -226,7 +226,7 @@ The authors make no guarantee regarding suitability for commercial or clinical u
 ## 👥 Authors
 
 * Jean-Baptiste Barreau
-* [Second author]
+* Rozenn Colleter
 
 ---
 
