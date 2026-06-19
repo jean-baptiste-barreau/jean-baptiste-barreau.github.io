@@ -1,0 +1,878 @@
+older,younger,type
+Substrat,Cairn Chbre III,older
+Substrat,Cloison axiale en bois (1),older
+Substrat,Cloison axiale en bois (2),older
+Substrat,Cloison axiale en bois (3),older
+Substrat,T11b D2,older
+Cloison axiale en bois (3),T11b D2,synch
+Cloison axiale en bois (3),Cloison axiale en bois (2),synch
+Cloison axiale en bois (2),Cloison axiale en bois (1),synch
+Cloison axiale en bois (3),Argile rouge (3),older
+Cloison axiale en bois (2),Argile rouge (2),older
+Cloison axiale en bois (1),Argile rouge (1),older
+Argile rouge (1),c80 C,older
+Substrat,c80 C,older
+c80 C,c84b Inf,older
+Substrat,c84b Inf,older
+T11b D2,c80 C,older
+c84b Inf,c80 B,older
+c80 B,c80 A,older
+c68base,c80 A,older
+c84b Inf,T11b D1,older
+c84b Inf,T11b E,older
+T11b D1,c80 B,older
+T11b E,c80 B,older
+T11b B1,c80 B,older
+T11b D1,T11b B1,older
+T11b E,T11b B1,older
+T11b D1,c66 base,older
+T11b E,c66 base,older
+Substrat,c66 base,older
+T11b B1,T11 C,older
+T11 C,c68base,older
+c66 base,c68base,older
+c68base,c81 a-b / c85 sup / c66 B2,older
+c66 base,c81 a-b / c85 sup / c66 B2,older
+c66 B,c81 a-b / c85 sup / c66 B2,older
+c62 B,c81 a-b / c85 sup / c66 B2,older
+c80 A,c62 B,older
+c62 B,c63 B,older
+c63 C,c63 B,older
+c61 Inf,c63 B,older
+c63 B,c59b Inf,older
+c59b Inf,c54b E-F,older
+c61 Inf,c59b Inf,older
+Substrat,c61 Inf,older
+c84 Inf,c61 Inf,older
+c63 C,c61 Inf,older
+c62 C,c84 Inf,older
+c62 C,c63 C,older
+c62 C,c62 B,older
+c84b Inf,c62 C,older
+c84 Inf,c85b B,older
+Substrat,c84 Inf,older
+Substrat,c63 C,older
+Substrat,c62 C,older
+Argile rouge (3),c90,older
+c36 F,c90,older
+Argile rouge (2),c36 F,older
+Substrat,c36 F,older
+c36bis E2,c46 E2,older
+Substrat,c46 E2,older
+Argile rouge (2),c36bis E2,older
+Substrat,c36bis E2,older
+c31b F,c31b E,older
+Argile rouge (2),c31b F,older
+Substrat,c31b F,older
+c92,c91,older
+Argile rouge (2),c92,older
+Substrat,c92,older
+c90,c30b E / c88 Inf,older
+c30 F,c30b E / c88 Inf,older
+c30b E / c88 Inf,c30c E,older
+c30b E / c88 Inf,c29 D2,older
+Substrat,c29 D2,older
+c29 D2,c24 D,older
+c30c E,c24 D,older
+Substrat,c24 D,older
+c24 D,c24 C,older
+c29 D2,c24 C,older
+c30c D,c24 C,older
+c30c E,c30c C,older
+c30c E,c30c D,older
+c30c C,c30 E,older
+c30c D,c30 E,older
+c31 D,c30 E,older
+c36 F,c36 E2,older
+c36 E2,c38 D3-D4,older
+Substrat,c38 D3-D4,older
+c38 D3-D4,c30b E / c88 Inf,older
+c38 D3-D4,c36 E1,older
+c36 E1,c38 D2,older
+c38 D2,c30b D,older
+c30b E / c88 Inf,c30b D,older
+c30b D,c30c C,older
+c30b D,c30c D,older
+c36bis E2,c36bis E1b,older
+c36bis E1b,c38bis E2,older
+c38 D3-D4,c38bis E2,older
+Substrat,c38bis E2,older
+c38bis E2,c36bis E1a,older
+c36bis E1a,c36 E1,older
+c36bis E1a,c38bis E1,older
+c38 D2,c38bis E1,older
+c46 E2,c46 E1,older
+c36bis E1b,c46 E1,older
+c46 E1,c83,older
+c83,c82,older
+c36bis E1a,c38 D2,older
+Substrat,c43 C,older
+Substrat,c43 D,older
+c46 E1,c43 C,older
+c46 E1,c43 D,older
+c46 E1,c38bis E2,older
+T11 C,c82,older
+Substrat,c44 D,older
+c43 C,c44 D,older
+c43 D,c44 D,older
+c82,c44 D,older
+Substrat,c68b (1),older
+Substrat,c68b (2),older
+c44 D,c68b (1),older
+c44 D,c68b (2),older
+c68b (1),T11 A-B,older
+c68b (2),T11 A-B,older
+T11 C,T11 A-B,older
+c85b B,c85b A2,older
+c62 B,c85b A2,older
+c85b A2,c49 C,older
+c49 C,c49b C,older
+c54b E-F,c54b C,older
+c54b E-F,c54b D,older
+c49b C,c54b C,older
+c49b C,c54b D,older
+c54b C,c59b,older
+c54b D,c59b,older
+c85b A2,c59b,older
+Argile rouge (3),c30 F,older
+c31 Inf,c30 F,older
+c91,c31 Inf,older
+c31b E,c31 Inf,older
+c31 Inf,c86 D,older
+c32 B,c86 A,older
+Argile rouge (3),c86 D,older
+c86 D,c89 Inf,older
+Substrat,c89 Inf,older
+c31 Inf,c31b A2-D,older
+c31b A2-D,c47 C,older
+c31b A2-D,c47 D,older
+c47 C,c31 C,older
+c47 C,c31 D,older
+c47 D,c31 C,older
+c47 D,c31 D,older
+c31 D,c86 C,older
+c31 D,c31 C,older
+c31 D,c86 C,older
+c86 D,c86 C,older
+c89 Inf,c86 C,older
+c86 C,c47b D,older
+T11 A-B,Cloison NS bois,older
+Cloison NS bois,c66 B,older
+Substrat,c66 B,older
+Substrat,c42 B2,older
+c68b (1),c42 B2,older
+c68b (2),c42 B2,older
+Substrat,c67b B2,older
+c42 B2,c67b B2,older
+c66 B,c67b B2,older
+c54b D,c54b C,older
+c43 D,c43 C,older
+c68b (1),c68b (2),older
+c30c D,c30c C,older
+T11b E,T11b D1,older
+c36bis E1a,c36bis D,older
+c36bis D,c36bis C,older
+c36bis C,c36 C,older
+c36bis D,c36 D,older
+c36 E1,c36 D,older
+c36 D,c36 C,older
+c36 D,c38 D1,older
+c38 D2,c38 D1,older
+c36 C,c35 C,older
+c35 C,c37 C,older
+c37 C,c38 C,older
+c38 C,c38bis C,older
+Substrat,c38c D,older
+Substrat,c38b D,older
+Substrat,c38bis D,older
+c38c D,c38bis C,older
+c38b D,c38c D,older
+c38b D,c38 C,older
+c38bis D,c38b D,older
+c38bis E1,c38bis D,older
+c38 D1,c38bis D,older
+c38 D1,c29 D1-C,older
+c30b D,c29 D1-C,older
+c24 C,c29 D1-C,older
+c29 D1-C,c24 B6,older
+c24 C,c24 B6,older
+c24 B6,c23 B-D,older
+c23 B-D,c22c Inf,older
+Substrat,c22c Inf,older
+c22c Inf,c22 Inf,older
+Substrat,c22 Inf,older
+c22 Inf,c13 Inf,older
+Substrat,c13 Inf,older
+c24 B6,c30c B,older
+c30c C,c30c B,older
+c30c B,c30 C,older
+c30 C,c26 C,older
+c24 B6,c15 D,older
+Substrat,c15 D,older
+Substrat,c15c D,older
+c15 D,c15c D,older
+Substrat,c14 E,older
+c15 D,c14 E,older
+c13 Inf,c14 E,older
+c13 Inf,c8 B,older
+c14 E,c8 B,older
+c15c D,c8 B,older
+c8 B,c8a B,older
+c30c B,c15 C2,older
+c15 D,c15 C2,older
+c15 C2,c15b D-C,older
+c15c D,c15b D-C,older
+Substrat,b20 B,older
+c15b D-C,b20 B,older
+Substrat,c17 E,older
+c15c D,c17 E,older
+c17 E,c17 D2,older
+c15b D-C,c17 D2,older
+c17 D2,b20 B,older
+c17 D2,c27 A1,older
+c26 C,c27 A1,older
+c30 E,c26 D C2,older
+Substrat,c27 A2,older
+c26 D C2,c27 A2,older
+c27 A2,c17 E,older
+c27 A2,c15c D,older
+c26 D C2,c32 D,older
+Substrat,c32 D,older
+c89 Sup,c32 D,older
+c31 C,c32 D,older
+Substrat,c33 C,older
+c32 D,c33 C,older
+c86 C,c89 Sup,older
+c89 Sup,c33 C,older
+c27 A2,c33 C,older
+Substrat,c51 D1,older
+c33 C,c51 D1,older
+Substrat,c52 D1,older
+c51 D1,c52 D1,older
+T10,c52 D1,older
+Substrat,T10,older
+c59b,T10,older
+c59b,c64 B,older
+Substrat,c64 B,older
+Substrat,c59c,older
+c64 B,c59c,older
+T10,c59c,older
+c85b A2,c81 a-b / c85 sup / c66 B2,older
+c81 a-b / c85 sup / c66 B2,c49 B,older
+c49 C,c49 B,older
+c49 B,c54b B,older
+c54b C,c54b B,older
+c82,c82 B-A2,older
+c82 B-A2,c83 B-A2,older
+c82 B-A2,c81 a-b / c85 sup / c66 B2,older
+c83 B-A2,c44 C2,older
+c68b A-B,c44 C2,older
+c68b (2),c44 C2,older
+c44 D,c44 C2,older
+c81 a-b / c85 sup / c66 B2,c67 E-D,older
+c44 C2,c43 Cx,older
+c68b (1),c68b A-B,older
+c68b (2),c68b A-B,older
+c82 B-A2,c68b A-B,older
+c68b A-B,c43 Cx,older
+c46 D,c43 Cx,older
+c43 C,c43 Cx,older
+c46 D,c83 B-A2,older
+c37 C,c46 D,older
+c38 C,c29b B2,older
+c29 D1-C,c29b B2,older
+c29b B2,c24 B3,older
+c30c B,c24 B3,older
+c15 C2,c15 C1,older
+c15 C1,c11 C,older
+c17 D2,c11 C,older
+c11 C,c16 C1,older
+c26 C,c16 C1,older
+c11 C,c17 D1,older
+c17 D2,c17 D1,older
+c16 C1,c18 D,older
+c17 D1,c18 D,older
+c27 A1,c18 D,older
+c16 C1,c26 B (1),older
+c30 C,c26 B (1),older
+c15 C1,c14 C,older
+c24 B3,c14 C,older
+c14 C,c13 C,older
+c13 C,c22 Sup,older
+c22 Inf,c22 Sup,older
+c22 Sup,c22c Sup,older
+c13 C,c8b,older
+c8b,c7 B1-C,older
+Substrat,c7 B1-C,older
+Substrat,c39b,older
+c38bis C,c39b,older
+c38bis C,c43 Cx,older
+Substrat,c22b B-F,older
+c39b,c22b B-F,older
+c7 B1-C,c22b B-F,older
+c22c Sup,c22b B-F,older
+Substrat,c2 E2,older
+c7 B1-C,c2 E2,older
+c15b D-C,c2 E2,older
+Substrat,c6 B2,older
+c2 E2,c6 B2,older
+c6 B2,c10 B2b,older
+b20 B,c10 B2b,older
+c17 D1,c10 B2b,older
+Substrat,T1 D,older
+c10 B2b,T1 D,older
+c42 B2,c42 B / c67b B1,older
+c67b B2,c42 B / c67b B1,older
+c42 B / c67b B1,c66 B1 / c68 D / c81 a2 / c62b,older
+c61 Inf,c61,older
+c66 B1 / c68 D / c81 a2 / c62b,c61,older
+c66 B1 / c68 D / c81 a2 / c62b,c69 base,older
+Substrat,c69 base,older
+c69 base,c69,older
+c81 a-b / c85 sup / c66 B2,c66 B1 / c68 D / c81 a2 / c62b,older
+c82 B-A2,c82 A2,older
+c82 A2,c66 B1 / c68 D / c81 a2 / c62b,older
+c67 E-D,c66 B1 / c68 D / c81 a2 / c62b,older
+c46 D,c46 BC,older
+c46 BC,c83 A2,older
+c82 A2,c83 A2,older
+c83 A2,c45,older
+c43 Cx,c45,older
+c45,c43 Cx3,older
+c43 Cx,c43 Cx3,older
+c42 B / c67b B1,c43 Cx3,older
+c43 Cx3,c41 B2,older
+c36bis C,c36bis B,older
+c36bis B,c45,older
+c36bis B,c46 BC,older
+c37 A2b,c46 BC,older
+c36bis B,c36 B,older
+c36 C,c36 B,older
+c35 C,c35 A2b,older
+c35 A2b,c37 A2b,older
+c37 C,c37 A2b,older
+c36bis C,c37 A2b,older
+c37 A2b,c45,older
+c35 A2b,c29b B1,older
+c29b B2,c29b B1,older
+c29b B1,c29 B2,older
+c22 Sup,c29 B2,older
+c30c B,c24 B2 / c15 B,older
+c24 B3,c24 B2 / c15 B,older
+c29b B1,c24 B2 / c15 B,older
+c24 B2 / c15 B,c30 B,older
+c31 B,c30 B,older
+c30 C,c30 B,older
+c31 C,c31 B,older
+c31 D,c31 B,older
+c31b A1,c31 B,older
+c31b A2-D,c31b A1,older
+c31b A1,c47 Ax,older
+c47 C,c47 Ax,older
+c47 C,c47 Ax,older
+c47 D,c47 C,older
+c47 Ax,c47b C,older
+c47b D,c47b C,older
+c46 BC,c47b C,older
+c47b C,c86 B,older
+c86 C,c86 B,older
+c86 B,c31 B,older
+c31 B,c32 C,older
+c32 D,c32 C,older
+c32 C,c33 B,older
+c33 C,c33 B,older
+c27 A1,c33 B,older
+c24 B2 / c15 B,c15c,older
+c15 C1,c15c,older
+c15c,c11 B,older
+c11 C,c11 B,older
+c29b B1,c11 B,older
+c29b B2,c11 B,older
+c15c,c25b B,older
+c11 B,c25b B,older
+c30 B,c25b B,older
+c25b B,c26 B (1),older
+c32 C,c26 B (1),older
+c11 B,c17 B-C,older
+c17 D1,c17 B-C,older
+c17 B-C,c16 C2,older
+c16 C1,c16 C2,older
+c26 B (1),c16 C2,older
+c26 B (2),c26 B (1),older
+c16 C1,c26 B (2),older
+c18 D,c18 C,older
+c16 C2,c18 C,older
+c15c,c12 B,older
+c15b B,c12 B,older
+c15b D-C,c15b B,older
+c15c,c15b B,older
+c12 B,c8 B1,older
+c8a B,c8 B1,older
+c8 B1,c8a' A,older
+c8a' A,c8a A,older
+c8b,c8a A,older
+c2 E2,c2 E1-C,older
+c15b B,c2 E1-C,older
+c2 E1-C,c6 B1,older
+c6 B2,c6 B1,older
+c2 E1-C,c10 B2a,older
+c17 B-C,c10 B2a,older
+c10 B2b,c10 B2a,older
+c6 B1,c10 B2a,older
+T1 D,T1 B-C,older
+c6 B2,T1 B-C,older
+c17 E,T1 B-C,older
+c6 B1,T1 B-C,older
+c2 E1-C,Terre rouge,older
+Terre rouge,b11 C,older
+b11 C,T2 D,older
+T1 B-C,T2 D,older
+Substrat,T3 B,older
+T2 D,T3 B,older
+T1 B-C,T3 B,older
+Substrat,T4,older
+T3 B,T4,older
+T2 D,b11 B,older
+c1 B,b11 B,older
+c6 B1,b11 B,older
+Substrat,c1 B,older
+c7 B1-C,c1 B,older
+c1d A-C,c1 B,older
+c2 E2,c1 B,older
+Substrat,c1d A-C,older
+c22b B-F,c1d A-C,older
+c39 B,c1d A-C,older
+Substrat,c39 B,older
+c39b,c39 B,older
+c49 B,c65,older
+c68b,c68b Z1,older
+c65,c49 A,older
+c49 A,c48 B,older
+c48 B,c82 A sup,older
+c82 A2,c82 A sup,older
+c82 A sup,c83 A2 sup,older
+c46 Nord B,c83 A2 sup,older
+c83 A2,c83 A2 sup,older
+c81 A / c62b sup,c83 A2 sup,older
+c36 Nord B,c46 Nord B,older
+c46 D,c36 Nord B,older
+c36 B,c36 Nord B,older
+c36 C,c46 Nord B,older
+c46 BC,c46 Nord B,older
+c82 A sup,c81 A / c62b sup,older
+c81 a-b / c85 sup / c66 B2,c66 B1 / c68 D / c81 a2 / c62b,older
+c66 B1 / c68 D / c81 a2 / c62b,c81 A / c62b sup,older
+c81 A / c62b sup,c67 BC,older
+c66 B1 / c68 D / c81 a2 / c62b,c62 A,older
+c66 B1 / c68 D / c81 a2 / c62b,c85 A,older
+c49 A,c85 A,older
+c81 A / c62b sup,c85 A,older
+c54b B,c54b A,older
+c49 A,c54b A,older
+c67 BC,c42 A,older
+c43 Cx3,c42 A,older
+c62 A,c63 A,older
+c63 B,c63 A,older
+c62 A,c61 Sup,older
+c85 A,c61 Sup,older
+c61,c61 Sup,older
+c54b A,c61 Sup,older
+c42 A,c66 A,older
+c67 BC,c66 A,older
+c63 A,c64 A,older
+c64 B,c64 A,older
+c66 A,c69,older
+c69,c70,older
+Substrat,c70,older
+c59c,carapace c59c,older
+c54b A,carapace c59c,older
+c61 Sup,carapace c59c,older
+c64 A,carapace c59c,older
+carapace c59c,c59,older
+carapace c59c,c60,older
+c60c,c60,older
+Substrat,c56b,older
+carapace c51-54,c56b,older
+Substrat,c28 B,older
+c27 A1,c28 B,older
+c28 B,c56b,older
+c27 A1,carapace c27,older
+c11 A,c16 B,older
+c16 C2,c16 B,older
+c11 B,c11 A,older
+c26 B (1),c26 A,older
+c16 B,c26 A,older
+c26 C,c26 B (1),older
+c16 C2,carapace c27,older
+c18 C,carapace c27,older
+c33 B,carapace c27,older
+c33 A,carapace c51-54,older
+c54 D,carapace c51-54,older
+c86 A,carapace c51-54,older
+c53 D,c54 D,older
+c52 D2,c53 D,older
+c51 D2,c52 D2,older
+c33 B,c51 D2,older
+c51 D1,c51 D2,older
+c52 D1,c52 D2,older
+c32 B,c33 A,older
+c31 B1,c32 B,older
+c33 B,c33 A,older
+c32 C,c32 B,older
+c31 B,c31 B1,older
+Substrat,c71,older
+c72,c71,older
+c70,c71,older
+Substrat,c72,older
+c73,c72,older
+c69,c72,older
+Substrat,c73,older
+c66 A,c73,older
+Substrat,c74,older
+c73,c74,older
+c62 A,c74,older
+carapace c51-54,c51 C,older
+Substrat,c60b BC,older
+Substrat,c58 B,older
+c60b BC,c58 B,older
+c56b,c58 B,older
+Substrat,c60c,older
+c60b BC,c60c,older
+Substrat,c64b,older
+c64b,c60c,older
+c59c,c60c,older
+c64 A,c64b,older
+c33 B,c34 Base,older
+c56b,c34 Base,older
+c28 A,c34 Base,older
+c34 Base,c34b A,older
+c28b,c34b A,older
+c33 B,c28 A,older
+c28 A,c28b,older
+c28 B,c28b,older
+c34 Base,c28b,older
+c27 A,c28 A,older
+c33 B,c27 A,older
+carapace c27,c27 A,older
+T4,T5 B,older
+Substrat,T5 B,older
+Substrat,c19 BC,older
+T5 B,c19 BC,older
+c28 A,c19 BC,older
+T1 A,T5 B,older
+c28 A,T5 B,older
+T1 B-C,T1 A,older
+c17 D2,T1 A,older
+c10 B2a,T1 A,older
+T1 A,T2 C,older
+T2 D,T2 C,older
+T1 A,T3 A,older
+T2 C,T3 A,older
+T2 C,b3 B,older
+b3 B,b1 C,older
+b1 C,a8 C,older
+Substrat,a8 C,older
+a8 C,a5 B,older
+Substrat,a5 B,older
+Cairn Chbre III,a8 C,older
+Substrat,a18,older
+Cairn Chbre III,a18,older
+T2 C,a18,older
+c29b B1,c30b A,older
+c36 Nord B,c30b A,older
+c30b A,c25 A,older
+c24 B2 / c15 B,c25 A,older
+c30b A,c29b A,older
+c30b A,c30 A,older
+c30 B,c30 A,older
+c25 A,c24 B1,older
+c25 A,c15 A1,older
+c15c,c15 A1,older
+c25 A,c25b A,older
+c29b A,c24 B1,older
+c24 B2 / c15 B,c24 B1,older
+c30 A,c25b A,older
+c15 A1,c25b A,older
+c25b B,c25b A,older
+c15 A1,c15b A,older
+c15b B,c15b A,older
+c15b A,c10 B1,older
+T1 A,c10 B1,older
+c15b A,c12 A,older
+c12 B,c12 A,older
+c24 B1,c14 B,older
+c12 B,c14 B,older
+c14 C,c14 B,older
+c12 A,c8 A,older
+c8a A,c8 A,older
+c14 B,c13 B,older
+c13 C,c13 B,older
+c7 B1-C,c7 B,older
+c22 B,c7 B,older
+c11 A,c11 A1,older
+c15 A1,c11 A1,older
+c11 A1,c17 A,older
+c17 B-C,c17 A,older
+c12 A,c14 A,older
+c14 B,c14 A,older
+c12 A,c8 A0,older
+c8 A,c8 A0,older
+c10 B1,c8 A0,older
+c14 A,c13 A,older
+c23 A,c13 A,older
+c13 B,c13 A,older
+c13 A,c22 A,older
+c22 B,c22 A,older
+c22 Sup,c22 B,older
+c22 A,c22bis A,older
+c29 A,c23 A,older
+c23 B-D,c23 A,older
+c29 B2,c29 A,older
+c38bis B,c29 A,older
+c38bis C,c38bis B,older
+c38bis B,c45 A,older
+c45,c45 A,older
+c45 A,c43 B,older
+c43 Cx3,c43 B,older
+c41 B2,c41 B1,older
+c39b A,c41 B1,older
+c43 B,c41 B1,older
+c39b,c39b A,older
+c41 B1,c44 C1,older
+c44 C2,c44 C1,older
+c68b,c44 C1,older
+c68b A-B,c68b,older
+c82 A sup,c68b,older
+c67 BC,c67,older
+c41 B1,c40b (2),older
+c40b (2),c40 (2),older
+c39 A,c40b (2),older
+c39b A,c39 A,older
+c39 B,c39 A,older
+c39 A,c1d A0,older
+c1d A-C,c1d A0,older
+c1d A0,c1 A,older
+c7 A,c1 A,older
+c2 B,c1 A,older
+c1 B,c1 A,older
+c7 B,c7 A,older
+c2 E1-C,c7 A,older
+c22 A,c7 A,older
+c2 E1-C,c2 B,older
+c8 B1,c2 B,older
+c8a' A,c2 B,older
+c8a A,c2 B,older
+b11 B,b12,older
+b11 C,b12,older
+c4 B,b12,older
+c6 B1,c4 B,older
+c8a' A,c4 B,older
+c2 E1-C,c4 B,older
+b12,b13,older
+b13,c6 Ab,older
+b12,b10,older
+c1 A,b10,older
+b10,b11 A,older
+b11 B,b11 A,older
+b11 C,b11 A,older
+b11 A,b9 B,older
+b9 B,b1 B,older
+T2 A,b1 B,older
+b1 C,b1 B,older
+b13,T2 A,older
+T2 C,T2 A,older
+T2 A,b8 B,older
+b8 B,c18 B,older
+c18 C,c18 B,older
+c17 B-C,c18 B,older
+T5 A,c19 A,older
+T5 B,T5 A,older
+b1 B,a11 B,older
+a11 B,a12 B,older
+a12 B,a13 B,older
+b8 B,a13 B,older
+a11 B,a10 B,older
+a10 B,a9 B,older
+a9 B,a8 B,older
+a8 C,a8 B,older
+a8 B,a7 B,older
+amorce plan c75,c75,older
+c64 B,amorce plan c75,older
+c74,c75,older
+c64b,c75,older
+c64 A,c75,older
+c52 C,c53 C,older
+c54 D3,c53 C,older
+c53 D3,c54 D3,older
+c53 D3,c60b BC,older
+c52 D3,c53 D3,older
+c52 D3,c52 C,older
+c51 C,c52 D3,older
+c34 Base,c34 Sup,older
+c64b,c60,older
+c60,c60d Sup,older
+c60d Sup,c60bc Sup,older
+c60d Sup,c51b,older
+c53 C,c51b,older
+c34 Sup,c51b,older
+c51b,c57,older
+c57,c58 A,older
+c58 B,c58 A,older
+c58 A,c57b,older
+c34b B,c57b,older
+c34b A,c34b B,older
+a13 B,a14 B,older
+a14 B,a15 B,older
+a15 B,remblais 1/2,older
+a18,remblais 1/2,older
+c18 B,remblais 1/2,older
+T2 A,remblais 1/2,older
+T3 A,remblais 1/2,older
+c15b A1,remblais 1/2,older
+c19 A,remblais 1/2,older
+c6 Ab,remblais 1/2,older
+c8 A0,remblais 1/2,older
+c19 A,c18 A,older
+c17 A,c18 A,older
+c19 BC,c18 A,older
+c18 B,c18 A,older
+c19 BC,c19 A,older
+c47 Ax,c47 B,older
+c47 B,c47b B,older
+c47b C,c47b B,older
+c86 B,c47b B,older
+c32 B,c32 A,older
+c47 B,c32 A,older
+c32 A,c50 Inf,older
+c50 Inf,c55,older
+c55,c51 A,older
+c51 B,c51 A,older
+c50 Inf,c51 A,older
+c51 C,c51 B,older
+c53 C,c51 B,older
+c51 C,c50 Inf,older
+c51 A,c52 B,older
+c52 C,c52 B,older
+c52 B,c53 B,older
+c53 C,c53 B,older
+c52 A,c53 B,older
+c54 B,c53 B,older
+c54 D3,c54 B,older
+c55,c54 B,older
+c60,c59,older
+carapace c59c,c59,older
+c64b sup,c59,older
+c53 C,c59,older
+c64b,c64b sup,older
+c7 A,c22b A,older
+c38b A,c22b A,older
+c22bis A,c22b A,older
+c22b B-F,c22b A,older
+c39b A,c22b A,older
+c39b A,c38b A,older
+c40b (1),c40 (1),older
+c40b (2),c40b (1),older
+c40 (2),c40 (1),older
+c36 Nord A,c35 A1,older
+c36 Nord B,c36 Nord A,older
+c35 A2b,c35 A1,older
+c35 A1,c36 A0,older
+c36 A0,c46 A0,older
+c46 Nord A,c46 A0,older
+c44 B1,c46 A0,older
+c68b Z2,c44 B1,older
+c44 B2,c44 B1,older
+c44 C1,c44 B2,older
+c43 A,c44 B2,older
+c83 A2 sup,c44 B2,older
+c83 B-A2,c83 A2 sup,older
+c43 B,c43 A,older
+c83 A2 sup,c43 A,older
+c48 A,c68b Z2,older
+c68b,c68b Z1,older
+c68b Z1,c68b Z2,older
+c65,c48 A,older
+c48 B,c48 A,older
+c49 A0,c48 A,older
+c65 A0,c49 A0,older
+c49 A,c49 A0,older
+c54b A,c49 A0,older
+c68b Z1,c65 A0,older
+c65,c65 A0,older
+c46 Nord B,c46 Nord A,older
+c36 Nord A,c46 Nord A,older
+c46 A0,c31 A,older
+c31 B,c31 A,older
+c46 A0,c47b A,older
+c47b B,c47b A,older
+c31 A,c47 A,older
+c47b A,c47 A,older
+c47 A,c50,older
+c32 A,c50,older
+c50,c52 A,older
+c52 B,c52 A,older
+c28 A,c28,older
+c34 Sup,c28,older
+c28b,c28,older
+c28,c20,older
+c19 A,c20,older
+c25 A,c24 A,older
+c24 B1,c24 A,older
+c24 A,c25b A0,older
+c25b A,c25b A0,older
+c25b A0,c11 A1b,older
+c11 A1,c11 A1b,older
+c11 A1b,c9,older
+remblais 1/2,c9,older
+c9,c10 A,older
+c10 A,b20 A,older
+b20 A,b21,older
+b19,b20 A,older
+c6 Aa,b19,older
+c6 Ab,c6 Aa,older
+c6 B1,c6 Ab,older
+c4 B,c6 Ab,older
+c4 A,c6 Aa,older
+remblais 1/2,b19,older
+b21,b22,older
+b22,b18-b23,older
+b15,b18-b23,older
+b17,b15,older
+b14,b17,older
+b19,b14,older
+b14,b4-b5,older
+b4-b5,b6,older
+b15,b6,older
+b6,b7,older
+b7,b16,older
+b16,b8,older
+b7,a13 A,older
+a16,a13 A,older
+a17,a16,older
+a12 A,a17,older
+b4-b5,a12 A,older
+remblais 1/2,a12 A,older
+b3 A,b4-b5,older
+remblais 1/2,b3 A,older
+b1 B,b3 A,older
+b3 A,b2,older
+b2,b1 A,older
+b1 A,b9 A,older
+c1 A,b9 A,older
+b9 B,b9 A,older
+a12 A,a11 A,older
+a11 B,a11 A,older
+a11 A,a10 A,older
+a10 A,a9 A,older
+a9 A,a8 A,older
+a8 A,a7 A,older
+a7 B,a7 A,older
+a7 A,a6 A,older
+a6 A,a5 A,older
+a5 B,a5 A,older
+c2 B,c2 A,older
+c3 A,c2 A,older
+c4 A,c3 A,older
+c4 B,c4 A,older
+c15b A1,c4 A,older
+c15b A,c15b A1,older
