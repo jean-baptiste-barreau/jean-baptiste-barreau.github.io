@@ -1,0 +1,94 @@
+============================================================
+============================================================
+SCRIPT DEMARRE - 2026-05-25 21:40:04.035622
+SCRIPT DEMARRE - 2026-05-25 21:40:04.035622
+============================================================
+============================================================
+Python version: 3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]
+Python version: 3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]
+OK: fpdf importé avec succès
+OK: fpdf importé avec succès
+Test de création PDF simple...
+Test de création PDF simple...
+C:\Users\jb\Desktop\Travail\CReAAH\PyknFit\code_to_pdf.py:47: DeprecationWarning: The parameter "txt" has been renamed to "text" in 2.7.6
+  pdf.cell(200, 10, txt="Test", ln=1, align="C")
+C:\Users\jb\Desktop\Travail\CReAAH\PyknFit\code_to_pdf.py:47: DeprecationWarning: The parameter "ln" is deprecated since v2.5.2. Instead of ln=1 use new_x=XPos.LMARGIN, new_y=YPos.NEXT.
+  pdf.cell(200, 10, txt="Test", ln=1, align="C")
+OK: PDF simple créé (test_simple.pdf)
+OK: PDF simple créé (test_simple.pdf)
+
+Recherche dans: C:\Users\jb\Desktop\Travail\CReAAH\PyknFit
+
+Recherche dans: C:\Users\jb\Desktop\Travail\CReAAH\PyknFit
+  Trouvé: .\app.py
+  Trouvé: .\app.py
+  Trouvé: .\code_to_pdf.py
+  Trouvé: .\code_to_pdf.py
+  Trouvé: .\data.py
+  Trouvé: .\data.py
+  Trouvé: .\i18n.py
+  Trouvé: .\i18n.py
+  Trouvé: .\install.py
+  Trouvé: .\install.py
+  Trouvé: .\main.py
+  Trouvé: .\main.py
+  Trouvé: .\model.py
+  Trouvé: .\model.py
+  Trouvé: .\plotting.py
+  Trouvé: .\plotting.py
+  Trouvé: .\ui.py
+  Trouvé: .\ui.py
+
+Total fichiers Python: 9
+
+Total fichiers Python: 9
+
+Création du PDF principal...
+
+Création du PDF principal...
+C:\Users\jb\Desktop\Travail\CReAAH\PyknFit\code_to_pdf.py:90: DeprecationWarning: The parameter "ln" is deprecated since v2.5.2. Instead of ln=1 use new_x=XPos.LMARGIN, new_y=YPos.NEXT.
+  pdf.cell(0, 10, "Code Source Python", 0, 1, "C")
+C:\Users\jb\Desktop\Travail\CReAAH\PyknFit\code_to_pdf.py:92: DeprecationWarning: The parameter "ln" is deprecated since v2.5.2. Instead of ln=1 use new_x=XPos.LMARGIN, new_y=YPos.NEXT.
+  pdf.cell(0, 6, f"Repertoire: {os.path.abspath(directory)}", 0, 1, "C")
+C:\Users\jb\Desktop\Travail\CReAAH\PyknFit\code_to_pdf.py:93: DeprecationWarning: The parameter "ln" is deprecated since v2.5.2. Instead of ln=1 use new_x=XPos.LMARGIN, new_y=YPos.NEXT.
+  pdf.cell(0, 6, f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}", 0, 1, "C")
+C:\Users\jb\Desktop\Travail\CReAAH\PyknFit\code_to_pdf.py:94: DeprecationWarning: The parameter "ln" is deprecated since v2.5.2. Instead of ln=1 use new_x=XPos.LMARGIN, new_y=YPos.NEXT.
+  pdf.cell(0, 6, f"Fichiers: {len(py_files)}", 0, 1, "C")
+Ajout 1/9: app.py
+Ajout 1/9: app.py
+C:\Users\jb\Desktop\Travail\CReAAH\PyknFit\code_to_pdf.py:103: DeprecationWarning: The parameter "ln" is deprecated since v2.5.2. Instead of ln=1 use new_x=XPos.LMARGIN, new_y=YPos.NEXT.
+  pdf.cell(0, 10, f"Fichier: {os.path.basename(filepath)}", 0, 1)
+C:\Users\jb\Desktop\Travail\CReAAH\PyknFit\code_to_pdf.py:105: DeprecationWarning: The parameter "ln" is deprecated since v2.5.2. Instead of ln=1 use new_x=XPos.LMARGIN, new_y=YPos.NEXT.
+  pdf.cell(0, 6, f"Chemin: {filepath}", 0, 1)
+C:\Users\jb\Desktop\Travail\CReAAH\PyknFit\code_to_pdf.py:129: DeprecationWarning: The parameter "ln" is deprecated since v2.5.2. Instead of ln=1 use new_x=XPos.LMARGIN, new_y=YPos.NEXT.
+  pdf.cell(0, 4, line_clean, 0, 1)
+Ajout 2/9: code_to_pdf.py
+Ajout 2/9: code_to_pdf.py
+Ajout 3/9: data.py
+Ajout 3/9: data.py
+Ajout 4/9: i18n.py
+Ajout 4/9: i18n.py
+Ajout 5/9: install.py
+Ajout 5/9: install.py
+Ajout 6/9: main.py
+Ajout 6/9: main.py
+Ajout 7/9: model.py
+Ajout 7/9: model.py
+Ajout 8/9: plotting.py
+Ajout 8/9: plotting.py
+Ajout 9/9: ui.py
+Ajout 9/9: ui.py
+
+SUCCES! PDF créé: code_python.pdf
+
+SUCCES! PDF créé: code_python.pdf
+Taille: 31.91 KB
+Taille: 31.91 KB
+
+============================================================
+
+============================================================
+FIN DU SCRIPT - 2026-05-25 21:40:07.789492
+FIN DU SCRIPT - 2026-05-25 21:40:07.789492
+============================================================
+============================================================

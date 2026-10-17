@@ -1,0 +1,13 @@
+=== DÉMARRAGE DU SCRIPT ===
+Analyse du répertoire: C:\Users\jb\Desktop\Travail\CReAAH\PyknFit
+Trouvé 9 fichiers
+Ajout 1/9: .\app.py
+Ajout 2/9: .\code_to_pdf.py
+Ajout 3/9: .\data.py
+Ajout 4/9: .\i18n.py
+Ajout 5/9: .\install.py
+Ajout 6/9: .\main.py
+Ajout 7/9: .\model.py
+Ajout 8/9: .\plotting.py
+Ajout 9/9: .\ui.py
+ERREUR GRAVE:
