@@ -1,1 +1,0 @@
-"""PyknFit - Probabilistic multimodal decomposition framework"""
